@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>CSS</h2>
+    <p>Casecading Stylesheet</p>
+    <p>CSS (Cascading Style Sheets) is a styling language used to add style to a webpage.</p>
+    <p>HTML provides structure and adds content to a webpage, while CSS enhances the visual presentation of that content through various styles.</p>
+    <p>CSS use for make our HTML structure atractive and beutify</p>
+    <h3>CSS Syntax</h3>
+    <pre>
+        selector {
+            property1: value;
+            property2: value;
+        }
+    </pre>
+    <ul>
+        <li><code>selector</code> - specifies the HTML element that we want to apply the styles</li>
+        <li><code>property1</code> <strong>/</strong> <code>property2</code>- specifies the attribute of HTML elements that we want to change (color, background, and so on)</li>
+        <li><code>value</code> - specifies the new value you want to assign to the property (color of the text to red, background to gray, and so on)</li>
+    </ul>
+    <h3>Comments in CSS    </h3>
+    <p>/* this is css comment */</p>
+</body>
+</html>

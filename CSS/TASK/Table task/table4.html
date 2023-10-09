@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table-4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .center {
+            display: block;
+            margin: 0 auto;
+            width: 35%;
+            text-align: center;
+
+
+        }
+
+        table,
+        td {
+            border: 1px solid;
+            padding: 30px;
+            font-weight: bold;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 30%;
+        }
+
+        .k {
+            vertical-align: top;
+            width: 10%;
+        }
+
+        .frist {
+            background-color: rgba(12, 161, 111, 0.71);
+        }
+
+        .second {
+            background-color: rgba(255, 238, 0, 0.783);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        <table>
+            <tr>
+                <td><b>I</b></td>
+                <td><b>II</b></td>
+                <td><b>III</b></td>
+                <td><b>IV</b></td>
+                <td><b>V</b></td>
+                <td><b>VI</b></td>
+                <td><b>VII</b></td>
+
+            </tr>
+            <tr>
+                <td class="frist">H</td>
+                <td></td>
+                <td colspan="3" rowspan="3" class="k">Periodic Table Of Elements</td>
+                <td></td>
+                <td class="second">He</td>
+            </tr>
+            <tr>
+                <td>Li</td>
+                <td>Be</td>
+                <td>B</td>
+                <td class="second">Ne</td>
+            </tr>
+            <tr>
+                <td>Na</td>
+                <td>Mg</td>
+                <td>Al</td>
+                <td class="second">Ar</td>
+            </tr>
+            <tr>
+                <td>K</td>
+                <td>Ca</td>
+                <td>Sc</td>
+                <td>Ti</td>
+                <td>V</td>
+                <td>Ga</td>
+                <td class="second">Kr</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

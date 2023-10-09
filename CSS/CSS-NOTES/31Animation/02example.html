@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .element {
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation: kuchbhi 1.5s ease-in-out infinite ;
+            /* animation: kuchbhi 3s ease infinite alternate; */
+            /* animation-name: kuchbhi;
+            animation-duration: 1.5s;
+            animation-timing-function: ease-out; */
+            /* animation-timing-function: ease;
+            animation-timing-function: ease-in;
+            animation-timing-function: ease-out;
+            animation-timing-function: ease-in-out;
+            animation-timing-function: linear;
+            animation-timing-function: step-start;
+            animation-timing-function: step-end; */
+            /* animation-delay: 5s; */
+            /* animation-direction: alternate; */
+            /* animation-direction: normal; */
+            /* animation-direction: reverse; */
+            /* animation-direction: alternate; */
+            /* animation-direction: alternate-reverse; */
+            /* animation-iteration-count: infinite; */
+            /* animation-fill-mode: none; */
+            /* animation-fill-mode: none;
+            animation-fill-mode: forwards;
+            animation-fill-mode: backwards;
+            animation-fill-mode: both; */
+            /* animation-play-state: running; */
+            /* animation-play-state: running;
+            animation-play-state: paused; */
+        }
+
+        @keyframes kuchbhi {
+            from {
+                width: 0px;
+                height: 150px;
+                border-radius: 0;
+            }
+
+            to {
+                width: 500px;
+                height: 550px;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="element"></div>
+</body>
+
+</html>

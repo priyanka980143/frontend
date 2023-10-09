@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .col_50 {
+    width: 50%;
+    background-color: black;
+  }
+
+  .container {
+    width: 1200px;
+    /* background-image: url(../page/imges/violine.jpeg);
+      width: 50%;
+      display: block;
+      background-repeat: no-repeat;
+      height: 100vh;
+      background-size: cover; */
+  }
+
+  .row {
+    display: flex;
+    /* flex-wrap: wrap; */
+  }
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  .pos_rel {
+    position: relative;
+  }
+
+  .pos_ab {
+    position: absolute;
+  }
+
+  .sec_head {
+    text-align: right;
+    margin-top: 60px;
+    margin-right: 60px;
+    border-right: 4px solid rgb(239, 69, 69);
+    padding-right: 20px;
+    color: #ffff;
+    font-size: 20px;
+  }
+
+  .sec_text {
+    text-align: right;
+    margin-right: 60px;
+    padding: 40px 0;
+  }
+
+  .sec_text h5 {
+    color: rgb(239, 69, 69);
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .sec_text p {
+    color: gray;
+    font-size: 16px;
+    /* width: 75%; */
+    /* margin: 0 auto; */
+    /* padding: 0 20px; */
+    /* text-align: right; */
+  }
+
+  .sec_icon i {
+    font-size: 20px;
+    padding: 10px 10px;
+    background-color: #ffff;
+    border-radius: 25px;
+    color: rgba(217, 58, 58, 0.871);
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .sec_icon1 {
+    top: 24%;
+    left: 49%;
+  }
+
+  .sec_icon2 {
+    top: 36%;
+    left: 49%;
+  }
+
+  .sec_icon3 {
+    top: 49%;
+    left: 49%;
+  }

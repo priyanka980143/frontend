@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        h1+p{
+            font-style: italic;
+        }
+        .container{
+            width: 900px;
+            /* background-color: blueviolet; */
+            margin: 0 auto;
+        }
+        h1{
+            /* margin: 30px; */
+            padding: 30px;
+        }
+        .txt-center{
+            text-align: center;
+        }
+        .txt-justify{
+            text-align: justify;
+        }
+        .float-l{ float: left; }
+        .float-r{ float: right; }
+        .col{
+            width: 50%;
+            padding: 20px;
+        }
+        .hrbg{
+            border: 0;
+            height: 2px;
+            background:radial-gradient(black 1%,white 80%, white)
+        }
+        .clear{clear: both;}
+    </style>
+</head>
+<body>
+    
+    <div class="container txt-center">
+        <h1>Lorem Ipsum</h1>
+        <p> <q> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</q></p>
+        <p> <q>There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...</q></p>
+
+
+        <div class="row">
+            <div class="col float-l">
+                <p class="txt-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum enim aliquam pariatur! Harum adipisci maiores, magnam nemo consectetur, voluptate autem corporis, soluta fuga perferendis pariatur aperiam voluptatem itaque a.</p>
+            </div>
+            <div class="col float-r">
+                <p class="txt-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum enim aliquam pariatur! Harum adipisci maiores, magnam nemo consectetur, voluptate autem corporis, soluta fuga perferendis pariatur aperiam voluptatem itaque a.</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <hr class="hrbg">
+        <div class="row">
+            <div class="col float-l">
+                <p class="txt-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum enim aliquam pariatur! Harum adipisci maiores, magnam nemo consectetur, voluptate autem corporis, soluta fuga perferendis pariatur aperiam voluptatem itaque a.</p>
+            </div>
+            <div class="col float-r">
+                <p class="txt-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nostrum enim aliquam pariatur! Harum adipisci maiores, magnam nemo consectetur, voluptate autem corporis, soluta fuga perferendis pariatur aperiam voluptatem itaque a.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

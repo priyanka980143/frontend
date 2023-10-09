@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            animation: animeffect 5s infinite alternate none;
+            margin: 100px auto;
+        }
+        @keyframes animeffect {
+            0%{ transform: scale(1.2); border-radius: 20px 0px 20px 0px; background-color: teal;  }
+            20%{ transform: scale(1.5); border-radius: 40px 0px 40px 0px; background-color: rgb(36, 128, 0); }
+            40%{ transform: scale(2); border-radius: 80px 0px 80px 0px; background-color: rgb(202, 222, 21); }
+            60%{ transform: scale(1.5); border-radius: 100px 20px 100px 20px; background-color: rgb(141, 193, 180); }
+            80%{ transform: scale(1.2); border-radius: 100px 40px 100px 40px; background-color: rgb(222, 118, 21); }
+            100%{ transform: scale(1); border-radius: 50%; background-color: rgb(222, 21, 28); }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box"></div>
+
+
+
+</body>
+
+</html>

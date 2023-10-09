@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parentContainer {
+            display: grid;
+            background-color: grey;
+            height: 100vh;
+        }
+
+        #childContainer {
+            place-self: center;
+            height: 100px;
+            width: 100px;
+            background-color: rgb(176, 9, 9);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="parentContainer">
+
+        <div class="childContainer" id="childContainer">
+            a
+        </div>
+
+    </div>
+
+</body>
+
+</html>

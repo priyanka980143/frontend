@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas width="120" height="120" id="canvas">
+        An alternative text describing what your canvas displays.
+    </canvas>
+    <ul>
+        <li><a href="/en-US/docs/Web/API/HTMLCanvasElement"><code>HTMLCanvasElement</code></a></li>
+        <li><a href="/en-US/docs/Web/API/CanvasRenderingContext2D"><code>CanvasRenderingContext2D</code></a></li>
+        <li><a href="/en-US/docs/Web/API/CanvasGradient"><code>CanvasGradient</code></a></li>
+        <li><a href="/en-US/docs/Web/API/CanvasPattern"><code>CanvasPattern</code></a></li>
+        <li><a href="/en-US/docs/Web/API/ImageBitmap"><code>ImageBitmap</code></a></li>
+        <li><a href="/en-US/docs/Web/API/ImageData"><code>ImageData</code></a></li>
+        <li><a href="/en-US/docs/Web/API/TextMetrics"><code>TextMetrics</code></a></li>
+        <li><a href="/en-US/docs/Web/API/OffscreenCanvas"><code>OffscreenCanvas</code></a></li>
+        <li><a href="/en-US/docs/Web/API/Path2D"><code>Path2D</code></a> <abbr class="icon icon-experimental" title="Experimental. Expect behavior to change in the future.">
+          <span class="visually-hidden">Experimental</span>
+      </abbr></li>
+        <li><a href="/en-US/docs/Web/API/ImageBitmapRenderingContext"><code>ImageBitmapRenderingContext</code></a> <abbr class="icon icon-experimental" title="Experimental. Expect behavior to change in the future.">
+          <span class="visually-hidden">Experimental</span>
+      </abbr></li>
+      </ul>
+    <script>
+        // const canvas = document.getElementById("canv")
+        // console.log(canvas);
+        // const canvasqueryselector = document.querySelector("canvas");
+        // console.log(canvasqueryselector);
+        // const canvas = document.querySelector("canvas");
+        // console.log(canvas);
+        // const ctx = canvas.getContext("2d");
+        // console.log(ctx);
+        // ctx.fillStyle = "green";
+        // ctx.fillRect(10, 10, 100, 100);
+
+
+
+        const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+
+let gradient = ctx.createLinearGradient(0, 0, 200, 0);
+gradient.addColorStop(0, "green");
+gradient.addColorStop(0.7, "white");
+gradient.addColorStop(1, "pink");
+ctx.fillStyle = gradient;
+ctx.fillRect(10, 10, 200, 100);
+    </script>
+</body>
+
+</html>

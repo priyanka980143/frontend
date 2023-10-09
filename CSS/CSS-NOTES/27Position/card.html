@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            width: 1200px;
+            margin: 50px auto;
+            color: white;
+            background-color: rgb(65, 65, 65);
+        }
+
+        .row {
+            display: flex;
+        }
+
+        .col {
+            box-shadow: 2px 5px 5px rgb(9, 213, 216);
+            flex: 1 0 0%;
+            padding:0  15px;
+            /* flex-basis: 0;
+            flex-grow: 1;
+            max-width: 100%; */
+        }
+        .card-img{
+            position: relative;
+        }
+        .card-img>img{
+            width: 100%;
+        }
+        /* .posit{ position: absolute; top: 80px; width: 50px; height: 150px; left: 300px; } */
+        .posit{ position: absolute; top: 30px; width: 50px; height: 150px; right: 20px; }
+        .posit>img{ width: 100%; }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="iphone-card-4.png" alt="">
+                        <div class="posit">
+                            <img src="offer.png" class="" alt="">
+                        </div>
+                    </div>
+                    <h3>Title</h3>
+                    <h4>something</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="col"><div class="card">
+                <div class="card-img">
+                    <img src="iphone-card-4.png" alt="">
+                    <div class="posit">
+                        <img src="offer.png" class="" alt="">
+                    </div>
+                </div>
+                <h3>Title</h3>
+                <h4>something</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div></div>
+            <div class="col"><div class="card">
+                <div class="card-img">
+                    <img src="iphone-card-4.png" alt="">
+                    <div class="posit">
+                        <img src="offer.png" class="" alt="">
+                    </div>
+                </div>
+                <h3>Title</h3>
+                <h4>something</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div></div>
+            <div class="col"><div class="card">
+                <div class="card-img">
+                    <img src="iphone-card-4.png" alt="">
+                    <div class="posit">
+                        <img src="offer.png" class="" alt="">
+                    </div>
+                </div>
+                <h3>Title</h3>
+                <h4>something</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE-1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .col_1 {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            width: 40%;
+        }
+
+        .col {
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            width: 30%;
+        }
+
+        table {
+            border-collapse: collapse;
+            /* width: 20%; */
+        }
+
+        table,
+        td {
+            border: 1px solid;
+            padding: 5px;
+
+
+        }
+
+        .pink {
+            padding: 8px;
+            background-color: rgba(119, 112, 216, 0.975);
+        }
+
+        .yellow {
+            background-color: rgba(217, 238, 57, 0.603);
+        }
+
+        .side {
+            padding: 2px;
+            /* background-color: burlywood; */
+        }
+
+        .color {
+            padding: 40px;
+            background-color: rgb(129, 146, 164);
+        }
+
+        .last {
+            background-color: rgba(128, 128, 128, 0.806);
+            padding: 5px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="col_1">Table with column and row spanned:</div>
+    <div class="col">
+        <table>
+            <tr>
+                <td class="pink">Logo</td>
+                <td colspan="3" class="yellow">Top Menu</td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="side yellow">Side Menu</td>
+                <td class="color">World News</td>
+                <td class="color">Financial</td>
+                <td rowspan="2" class="side pink">LIst of Ads</td>
+            </tr>
+            <tr>
+                <td class="color">Technology</td>
+                <td class="color">Sports</td>
+            </tr>
+            <tr>
+                <td colspan="4" class="last">Footer</td>
+            </tr>
+        </table>
+    </div>
+
+    
+</body>
+
+</html>

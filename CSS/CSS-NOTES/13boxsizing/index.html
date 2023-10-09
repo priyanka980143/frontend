@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            /* box-sizing: content-box; */
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 1200px;
+            margin: auto;
+            padding: 10px;
+            background-color: grey;
+        }
+        .row{
+            display: flex;
+        }
+        /* img{
+            display: block;
+            margin: 0 auto;
+        } */
+        .col{
+            height: 300px;
+            width: 300px;
+
+        }
+        .box1{ margin: 10px; padding: 20px; background-color: brown; }
+        .box2{ margin: 10px; padding: 50px; background-color: rgb(63, 165, 42); }
+        .box3{ margin: 10px; padding: 60px; background-color: rgb(163, 165, 42); }
+        .box4{ margin: 10px; padding: 150px; background-color: rgb(42, 132, 165); }
+        /* .box5{ margin: 10px; padding: 160px; background-color: rgb(54, 42, 165); } */
+    </style>
+</head>
+<body>
+    <!-- <img src="fontsType.png" alt=  ""> -->
+    <div class="container">
+        <div class="row">
+            <div class="col box1">Col1</div>
+            <div class="col box2">Col2</div>
+            <div class="col box3">Col3</div>
+            <div class="col box4">Col4</div>
+            <!-- <div class="col box5 ">Col5</div> -->
+        </div>
+    </div>
+
+
+</body>
+</html>

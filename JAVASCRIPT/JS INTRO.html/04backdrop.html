@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        dialog::backdrop {
+            background-color: rgb(89, 75, 73);
+        }
+    </style>
+</head>
+
+<body>
+    <button id="showDialogBtn">Show a dialog</button>
+
+    <dialog id="favDialog">
+        <form method="dialog">
+            <p>The background shown outside of this dialog is a backdrop.</p>
+            <button id="confirmBtn">Close the dialog</button>
+        </form>
+    </dialog>
+
+    <video controls src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4">
+        <track default kind="captions" srclang="en" src="/media/examples/friday.vtt" />
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+      
+    <script>
+
+        const showDialogBtn = document.getElementById('showDialogBtn');
+        const favDialog = document.getElementById('favDialog');
+
+        showDialogBtn.addEventListener('click', () => favDialog.showModal());
+
+    </script>
+</body>
+
+</html>

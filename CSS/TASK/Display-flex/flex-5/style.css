@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+body
+{
+    background: #cfe5e6;
+    font-family: roboto !important;
+}
+
+.SubHead
+{
+    color: #ff4500;
+}
+
+.para
+{
+    color: #6e7073;
+}
+
+.CircleColor1 
+{
+    background: #06aae1;
+}
+.CircleColor2
+{
+    background: #ff9f00;
+}
+.CircleColor3 
+{
+    background: #fe473d;
+}
+.CircleColor4 
+{
+    background: #ef5479;
+}
+.CircleColor5 
+{
+    background: #184075;
+}
+.CircleColor6
+{
+    background: #117e64;
+}
+.CircleColor7 
+{
+    background: #186075;
+}
+.CircleColor8 
+{
+    background: #6655ff;
+}
+.CircleColor9 
+{
+    background: #50516b;
+}
+
+.Circle
+{
+    border-radius: 50%;
+    display: inline-block;
+    height: 5rem;
+    width: 5rem;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 auto;
+    color: #fff;   
+}
+
+.Circle span {
+    display: table-cell;
+    vertical-align: middle;
+    height: 5rem;
+    width: 5rem;
+    text-align: center;
+    padding: 0 15px;
+  }

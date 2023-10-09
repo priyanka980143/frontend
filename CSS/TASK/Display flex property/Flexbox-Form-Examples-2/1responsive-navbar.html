@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive form</title>
+</head>
+<style>
+  .form {
+    display: flex;
+    background: orangered;
+    color: white;
+    border-radius: 3px;
+    padding: 1em;
+    font-family: sans-serif;
+  }
+  .form > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex: 3;
+  }
+  .form li {
+    margin-right: 1em;
+  }
+  .form > form {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+  }
+  .form input {
+    flex: 1;
+  }
+  .form button {
+    background: white;
+    border: 0;
+    border-radius: 1em;
+    color: orangered;
+    padding: 0 1em;
+    margin-left: .3em;
+  }
+ @media screen and (max-width: 575px) {
+   .form {
+     flex-direction: column;
+   }
+   .form ul {
+     flex-direction: row; 
+     margin-bottom: 1em;
+   }
+  }
+</style>
+
+<body>
+  <div class="form">
+  <ul>
+    <li>Logo</li>
+    <li>Home</li>
+    <li>Products</li>
+    <li>Services</li>
+  </ul>
+  <form>
+    <input type="search" placeholder="Search">
+    <button>Go</button>
+  </form>
+</div>
+</body>
+</html>

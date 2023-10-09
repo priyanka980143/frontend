@@ -1,0 +1,112 @@
+/* @import url(https://db.onlinewebfonts.com/c/5ebc67ab9ab9e86517c65dd6ac7c85aa?family=Dauphin); */
+@font-face {
+    font-family:DauphinPlain ;
+    src: url(../../Dauphin.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.container{
+    text-align: center;
+    inline-size: 960px;
+    margin: 0 auto;
+    margin-block-start: 250px;
+    margin-block-end: 250px;
+}
+#languages{
+    margin: 20px 15px 5px 15px ;
+}
+#Languages>a{
+    color: black;
+    padding: 2px;
+    font-size: 14px;
+    line-height: 10px;
+}
+.ltr>a{
+    color: black;
+}
+h1{
+    font-family: DauphinPlain;
+    font-weight: 400;
+    font-size: 70px;
+}
+.italic{
+    margin: 10px 10px 5px 10px;
+    font-size: 14px;
+    text-align: center;
+    font-style: italic;
+}
+.simple{
+    font-size: 12px;
+}
+hr{
+    clear: both;
+    border: 0;
+    block-size: 1px;
+    inline-size: 100%;
+    background-image: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,.50),rgba(0,0,0,0));
+}
+.table{
+    inline-size: 100%;
+    text-align: justify;
+    border-spacing: 15px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-block-start: auto;
+    padding: 15px;
+}
+.head{
+    font-family: DauphinPlain;
+    font-size: 28px;
+    text-align: start;
+}
+.data
+{
+    text-align: justify;
+    padding-inline-end: 15px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+.inner{
+    inline-size: 55%;
+}
+.outer{
+    display: flex;
+    text-align: justify;
+    margin: 15px;
+}
+.box
+{
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+.box>p>a{
+    color: red;
+}
+.box a{
+    color: black;
+    font-size: 16px;
+    margin:5px;
+}
+.img1{
+    margin-block-start: 10px;
+}
+.content
+{
+    margin-block-start:10px;
+    margin-block-end:10px;
+}
+.content>h3{
+    text-align: start;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+}
+.content>p{
+    text-align: justify;
+}
+.img1>a{
+    text-decoration: none;
+}

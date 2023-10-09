@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .text-color {
+            color: brown;
+        }
+
+        .text-alignment-center {
+            width: 300px;
+            text-align: center;
+        }
+
+        .text-alignment-end {
+            width: 300px;
+            text-align: end;
+        }
+
+        .text-alignment-start {
+            width: 300px;
+            text-align: start;
+        }
+
+        .text-alignment-left {
+            width: 300px;
+            text-align: left;
+        }
+
+        .text-alignment-right {
+            width: 300px;
+            text-align: right;
+        }
+
+        .text-alignment-justify {
+            width: 300px;
+            text-align: justify;
+        }
+        p[class*="text-alignment"]{
+            box-shadow: 2px 2px 10px grey;
+            padding: 5px;
+        }
+        .text-decor-overline{
+            text-decoration: overline;
+        }
+        .text-decor-underline{
+            text-decoration:underline;
+        }
+        .text-decor-line-through{
+            text-decoration:line-through;
+        }
+        h2 {
+  text-shadow:
+    1px 1px 1px red,
+    2px 2px 1px red;
+}
+.p-txt {
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  text-indent: 200px;
+}
+    </style>
+</head>
+<body>
+    <h2>Text CSS</h2>
+    <ul>
+        <li> Text Color</li>
+        <li> Text Alignment</li>
+        <li> Text Decoration</li>
+        <li> Removing the Default Underline from Links</li>
+        <li> Text Transformation</li>
+        <li> Text Indentation</li>
+        <li> Letter Spacing</li>
+        <li> Word Spacing</li>
+        <li> text-overflow</li>
+        <li> word-break</li>
+    </ul>
+
+    <ul>
+        <li><a href="/en-US/docs/Web/CSS/text-indent"><code>text-indent</code></a>: Specify how much horizontal space should be left before the beginning of the first line of the text content.</li>
+        <li><a href="/en-US/docs/Web/CSS/text-overflow"><code>text-overflow</code></a>: Define how overflowed content that is not displayed is signaled to users.</li>
+        <li><a href="/en-US/docs/Web/CSS/white-space"><code>white-space</code></a>: Define how whitespace and associated line breaks inside the element are handled.</li>
+        <li><a href="/en-US/docs/Web/CSS/word-break"><code>word-break</code></a>: Specify whether to break lines within words.</li>
+        <li><a href="/en-US/docs/Web/CSS/direction"><code>direction</code></a>: Define the text direction. (This depends on the language and usually it's better to let HTML handle that part as it is tied to the text content.)</li>
+        <li><a href="/en-US/docs/Web/CSS/hyphens"><code>hyphens</code></a>: Switch on and off hyphenation for supported languages.</li>
+        <li><a href="/en-US/docs/Web/CSS/line-break"><code>line-break</code></a>: Relax or strengthen line breaking for Asian languages.</li>
+        <li><a href="/en-US/docs/Web/CSS/text-align-last"><code>text-align-last</code></a>: Define how the last line of a block or a line, right before a forced line break, is aligned.</li>
+        <li><a href="/en-US/docs/Web/CSS/text-orientation"><code>text-orientation</code></a>: Define the orientation of the text in a line.</li>
+        <li><a href="/en-US/docs/Web/CSS/overflow-wrap"><code>overflow-wrap</code></a>: Specify whether or not the browser may break lines within words in order to prevent overflow.</li>
+        <li><a href="/en-US/docs/Web/CSS/writing-mode"><code>writing-mode</code></a>: Define whether lines of text are laid out horizontally or vertically and the direction in which subsequent lines flow.</li>
+      </ul>
+    <div class="p-txt">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus optio voluptas, nobis assumenda necessitatibus aut quas fugiat veniam saepe alias ad expedita quae voluptatum quis dolorum. Repellat ipsum quam amet.</p>
+    </div>
+    <p class="text-color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium aspernatur fuga
+        excepturi? Provident odit veniam nobis, natus aliquid earum laboriosam animi quisquam, nostrum consequuntur sint
+        placeat quod maxime quas!</p>
+    <h4>text-alignment-end</h4>
+    <p class="text-alignment-end">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium aspernatur fuga excepturi? Provident
+        odit veniam nobis, natus aliquid earum laboriosam animi quisquam, nostrum consequuntur sint placeat quod maxime
+        quas!</p>
+    <h4>text-alignment-right</h4>
+    <p class="text-alignment-right">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium aspernatur fuga excepturi? Provident
+        odit veniam nobis, natus aliquid earum laboriosam animi quisquam, nostrum consequuntur sint placeat quod maxime
+        quas!</p>
+    <h4>text-alignment-start</h4>
+    <p class="text-alignment-start">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium aspernatur fuga excepturi? Provident
+        odit veniam nobis, natus aliquid earum laboriosam animi quisquam, nostrum consequuntur sint placeat quod maxime
+        quas!</p>
+    <h4>text-alignment-left</h4>
+    <p class="text-alignment-left">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium aspernatur fuga excepturi? Provident
+        odit veniam nobis, natus aliquid earum laboriosam animi quisquam, nostrum consequuntur sint placeat quod maxime
+        quas!</p>
+        <h4>text-alignment-justify</h4>
+    <p class="text-alignment-justify">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium aspernatur fuga excepturi? Provident
+    odit veniam nobis, natus aliquid earum laboriosam animi quisquam, nostrum consequuntur sint placeat quod maxime
+    quas!</p>
+        <h4>text-alignment-center</h4>
+    <p class="text-alignment-center">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa praesentium aspernatur fuga excepturi? Provident
+    odit veniam nobis, natus aliquid earum laboriosam animi quisquam, nostrum consequuntur sint placeat quod maxime
+    quas!</p>
+    <p class="text-decor-overline"> Lorem ipsum dolor sit amet consectetur</p>
+    <p class="text-decor-underline"> Lorem ipsum dolor sit amet consectetur</p>
+    <p class="text-decor-line-through"> Lorem ipsum dolor sit amet consectetur</p>
+</body>
+</html>

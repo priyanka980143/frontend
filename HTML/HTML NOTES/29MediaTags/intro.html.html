@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>The &lt;source&gt; HTML element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt;
+        element, or the &lt;video&gt; element. It is a void element, meaning that it has no content and does not have a
+        closing tag. It is commonly used to offer the same media content in multiple file formats in order to provide
+        compatibility with a broad range of browsers given their differing support for image file formats and media file
+        formats.</p>
+
+
+    <video src="SampleVideo_1280x720_5mb.mp4" height="200px"></video>
+    <video src="SampleVideo_1280x720_5mb.mp4" controls height="200px"></video>
+    <video src="SampleVideo_1280x720_5mb.mp4" controls autoplay height="200px"></video>
+    <video src="SampleVideo_1280x720_5mb.mp4" controls autoplay muted height="200px"></video>
+    <video src="SampleVideo_1280x720_5mb.mp4" controls autoplay muted loop height="200px"></video>
+    <video src="SampleVideo_1280x720_5mb.mp4" controls loop
+        poster="the-kerala-story-trailer-see-the-shocking-tale-of-keralas-women.jpg" height="200px"></video>
+
+
+    <audio src="file_example_MP3_700KB.mp3"></audio>
+    <audio src="file_example_MP3_700KB.mp3" controls></audio>
+
+
+    <video controls width="250" height="200" muted>
+        <source src="/media/cc0-videos/flower.webm" type="video/webm">
+        <source src="/media/cc0-videos/flower.mp4" type="video/mp4">
+        Download the
+        <a href="/media/cc0-videos/flower.webm">WEBM</a>
+        or
+        <a href="/media/cc0-videos/flower.mp4">MP4</a>
+        video.
+    </video>
+
+
+    <picture>
+        <source media="(min-width:800px )" srcset="desktop.png" sizes="">
+        <img src="mobile.png" alt="">
+    </picture>
+
+
+
+    
+</body>
+
+</html>

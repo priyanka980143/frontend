@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>textarea-2</title>
+
+</head>
+<style>
+  * {
+   box-sizing: border-box; 
+  }
+  .textForm {
+    display: flex;
+    background-color: beige;
+    border-radius: 3px;
+    padding: 1.8em;
+  }
+  .message {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+  }
+  .message > textarea {
+   flex: 1; 
+   min-width: 18em;
+  }
+  .contact {
+   	flex: 1; 
+    order: 1;
+   	margin-right: 2em; 
+  }
+  .contact input {
+    width: 100%;
+  }
+  .contact input,
+  .contact button {
+    padding: 1em;
+    margin-bottom: 1em;
+  }
+  .contact button {
+   background: gray;
+   color: white;
+   border: 0;
+  }
+</style>
+
+<body>
+<form class="textForm">
+  <div class="message">
+    <label for="msg">Message</label>
+    <textarea id="msg"></textarea>
+  </div>
+  <div class="contact">
+    <label for="name">Name</label>
+    <input type="text" id="name">
+
+    <label for="townborn">Town you were born in</label>
+    <input type="text" id="townborn">
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email"> 
+
+    <button type="submit">Submit</button>
+  </div>
+</form>
+
+</body>
+</html>

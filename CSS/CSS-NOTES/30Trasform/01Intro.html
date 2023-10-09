@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <pre>
+        transform: rotate(0.5turn);
+        transform: rotate3d(1, 2, 3, 10deg);
+        transform: rotateX(10deg);
+        transform: rotateY(10deg);
+        transform: rotateZ(10deg);
+        transform: translate(12px, 50%);
+        transform: translate3d(12px, 50%, 3em);
+        transform: translateX(2em);
+        transform: translateY(3in);
+        transform: translateZ(2px);
+        transform: scale(2, 0.5);
+        transform: scale3d(2.5, 1.2, 0.3);
+        transform: scaleX(2);
+        transform: scaleY(0.5);
+        transform: scaleZ(0.3);
+        transform: skew(30deg, 20deg);
+        transform: skewX(30deg);
+        transform: skewY(1.07rad);
+        transform: matrix(1, 2, 3, 4, 5, 6);
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        transform: perspective(17px);
+
+    </pre>
+
+
+    <style>
+        .container{ width: 1200px;margin: 0 auto; }
+        .row{display: flex; flex-wrap: wrap;}
+        .box{  margin: 50px; flex: 1 0 auto; height: 200px;width: 200px; background-color: teal;  }
+        .t-rotate{ transform: rotate(45deg); }
+        .t-rotate-hover,.t-rotate-hover-x,.t-rotate-hover-y,.t-translate,.t-scale,.t-skew,.t-matrix{ transition: all .2s; }
+        .t-rotate-hover:hover{ transform: rotate(45deg); }
+        .t-rotate-hover-x:hover{ transform: rotateX(45deg); }
+        .t-rotate-hover-y:hover{ transform: rotateY(45deg); }
+        .t-translate:hover{ transform: translate(12px, 50%); }
+        .t-scale:hover{ transform: scale(2); }
+        .t-skew:hover{ transform: skew(30deg, 20deg); }
+        .t-matrix:hover{ transform: matrix(1, 2, 3, 4, 5, 6); }
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="box t-rotate"></div>
+            <div class="box t-rotate-hover"></div>
+            <div class="box t-rotate-hover-x"></div>
+            <div class="box t-rotate-hover-y"></div>
+            <div class="box t-translate"></div>
+            <div class="box t-rotate-hover"></div>
+            <div class="box t-scale"></div>
+            <div class="box t-skew"></div>
+            <div class="box t-matrix"></div>
+        </div>
+    </div>
+
+</body>
+</html>

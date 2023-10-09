@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>CSS animations make it possible to animate transitions from one CSS style configuration to another. Animations
+        consist of two components, a style describing the CSS animation and a set of keyframes that indicate the start
+        and end states of the animation's style, as well as possible intermediate waypoints.</p>
+    <ol>
+        <li>They're easy to use for simple animations; you can create them without even having to know JavaScript.</li>
+        <li>The animations run well, even under moderate system load. Simple animations can often perform poorly in
+            JavaScript. The rendering engine can use frame-skipping and other techniques to keep the performance as
+            smooth as possible.</li>
+        <li>Letting the browser control the animation sequence lets the browser optimize performance and efficiency by,
+            for example, reducing the update frequency of animations running in tabs that aren't currently visible.</li>
+    </ol>
+
+    <dl>
+        <dt id="animation-composition"><a
+                href="/en-US/docs/Web/CSS/animation-composition"><code>animation-composition</code></a></dt>
+        <dd>
+            <p>Specifies the <a href="/en-US/docs/Glossary/Composite_operation">composite operation</a> to use when
+                multiple animations affect the same property simultaneously. This property is not part of the
+                <code>animation</code> shorthand property.</p>
+        </dd>
+        <dt id="animation-delay"><a href="/en-US/docs/Web/CSS/animation-delay"><code>animation-delay</code></a></dt>
+        <dd>
+            <p>Specifies the delay between an element loading and the start of an animation sequence and whether the
+                animation should start immediately from its beginning or partway through the animation.</p>
+        </dd>
+        <dt id="animation-direction"><a
+                href="/en-US/docs/Web/CSS/animation-direction"><code>animation-direction</code></a></dt>
+        <dd>
+            <p>Specifies whether an animation's first iteration should be forward or backward and whether subsequent
+                iterations should alternate direction on each run through the sequence or reset to the start point and
+                repeat.</p>
+        </dd>
+        <dt id="animation-duration"><a href="/en-US/docs/Web/CSS/animation-duration"><code>animation-duration</code></a>
+        </dt>
+        <dd>
+            <p>Specifies the length of time in which an animation completes one cycle.</p>
+        </dd>
+        <dt id="animation-fill-mode"><a
+                href="/en-US/docs/Web/CSS/animation-fill-mode"><code>animation-fill-mode</code></a></dt>
+        <dd>
+            <p>Specifies how an animation applies styles to its target before and after it runs.</p>
+        </dd>
+        <dt id="animation-iteration-count"><a
+                href="/en-US/docs/Web/CSS/animation-iteration-count"><code>animation-iteration-count</code></a></dt>
+        <dd>
+            <p>Specifies the number of times an animation should repeat.</p>
+        </dd>
+        <dt id="animation-name"><a href="/en-US/docs/Web/CSS/animation-name"><code>animation-name</code></a></dt>
+        <dd>
+            <p>Specifies the name of the <a href="/en-US/docs/Web/CSS/@keyframes"><code>@keyframes</code></a> at-rule
+                describing an animation's keyframes.</p>
+        </dd>
+        <dt id="animation-play-state"><a
+                href="/en-US/docs/Web/CSS/animation-play-state"><code>animation-play-state</code></a></dt>
+        <dd>
+            <p>Specifies whether to pause or play an animation sequence.</p>
+        </dd>
+        <dt id="animation-timing-function"><a
+                href="/en-US/docs/Web/CSS/animation-timing-function"><code>animation-timing-function</code></a></dt>
+        <dd>
+            <p>Specifies how an animation transitions through keyframes by establishing acceleration curves.</p>
+        </dd>
+    </dl>
+</body>
+
+</html>

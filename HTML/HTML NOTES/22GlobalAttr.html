@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLOBAL ATR</title>
+    <style>
+        .box {
+            height: 400px;
+            background-color: teal;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <br>
+    <a href="https://www.google.com" accesskey="g" title="Alt+g" target="_blank">Click here for redirect to Google</a>
+    <br>
+    <a href="mypage.html" title="alt+i" accesskey="i" target="_blank">Click here for redirect to Google</a>
+
+    <p contenteditable="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia similique, laborum nam earum
+        ea placeat consequatur, iste, obcaecati delectus fuga quibusdam recusandae. Provident voluptates quos odit
+        velit! Ipsam, reprehenderit ea.</p>
+
+
+    <div class="box" oncontextmenu="return false">
+        you cant perform right click in this div area
+    </div>
+
+
+    <h1>Secret agents</h1>
+
+    <ul>
+        <li onclick="getdata(this)" data-kuchbhi="10784">Jason Walters, 003: Found dead in "A View to a Kill".</li>
+        <li data-kuchbhi="97865">Alex Trevelyan, 006: Agent turned terrorist leader; James' nemesis in "Goldeneye".</li>
+        <li data-kaipan="45732">James Bond, 007: The main man; shaken but not stirred.</li>
+    </ul>
+
+    <input type="text" dir="ltr" name="" id="username">
+    <input type="text" tabindex="1" dir="rtl" name="" id="">
+    <br>
+    <input type="text" spellcheck="false" name="" id="username">
+    <input type="text" spellcheck="true" style="color: yellow;" name="" id="">
+    <img src="tagVselement.png" draggable="false" hidden alt="">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        function getdata(e) {
+            console.log(e);
+            // console.log($(this).data('kuchbhi'));
+            
+        }
+    </script>
+    <br><br><br><br><br><br><br><br>
+</body>
+
+</html>

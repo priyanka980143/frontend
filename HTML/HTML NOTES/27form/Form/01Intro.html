@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Form</h2>
+    <p>Form will helps to send client data to the server</p>
+    <p>There are two methods for sending client data to the server</p>
+    <p>name attribute will helps to send client data to the server</p>
+    <ul>
+        <li>GET</li>
+        <li>POST</li>
+    </ul>
+    <h2>Without form tag just input</h2>
+    <p>not able to submit it data to the server</p>
+    <input type="text" name="username" id="">
+    <input type="submit" name="username" id="">
+    <h2>With the Form tag</h2>
+    <h3>GET</h3>
+    <p>GET will send form data to the server using URL by appending URL ? </p>
+    <p>? will be called as query string</p>
+    <p><b>Example</b>
+        file:///c%3A/xampp/htdocs/FrontEnd/26jun_frontend_MWF_8/HTML/27Form/01Intro.html?username=asdf&fullname=asdfdd
+    </p>
+    <p>its shows its data in url that's why get method is less secure</p>
+    <p>GET is default method of form</p>
+    <p>GET is faster than post</p>
+    <p>GET mainly we use it for searching</p>
+    <p>send one page data to other with refreshing </p>
+    <p>we can bookmark URL with data</p>
+    <p>limitation 2048 char only</p>
+    <p>not supporting file uploading</p>
+    <!-- <form>
+        <label for="">User Name</label>
+        <input type="text" name="username" id="">
+        <label for="">Full Name</label>
+        <input type="text" name="fullname" id="">
+        <input type="submit" name="" id="">
+    </form> -->
+    <form method="get">
+        <table>
+            <tr>
+                <td><label for="">User Name</label></td>
+                <td><input type="text" name="username" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="Password" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="btn-submit" id=""></td>
+            </tr>
+        </table>
+    </form>
+
+
+
+    <h2>POST</h2>
+    <p>POST method sends its data without using url</p>
+    <p>secure</p>
+    <p>no limitation</p>
+    <p>not able to do bookmark</p>
+    <p>support file uploading</p>
+    <form method="post">
+        <table>
+            <tr>
+                <td><label for="">User Name</label></td>
+                <td><input type="text" name="username" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="Password" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="btn-submit" id=""></td>
+            </tr>
+        </table>
+    </form>
+
+
+    <form method="post" action="serverpage.php" target="_blank" name="my-form" id="cust-id" class="cust-class-form" autocomplete="off" enctype="multipart/form-data" novalidate>
+        <table>
+            <tr>
+                <td><label for="">User Name</label></td>
+                <td><input type="text" name="username" id="" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="Password" id=""></td>
+            </tr>
+            <tr>
+                <td><label for="">Profile Pic</label></td>
+                <td><input type="file" name="Password" id=""></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="btn-submit" id=""></td>
+            </tr>
+        </table>
+    </form>
+
+
+    <h2>form Attributes</h2>
+    <img src="-form-The-Form-element-HTML-HyperText-Markup-Language-MDN.png" alt="">
+    <br><br><br><br><br><br><br>
+
+</body>
+
+</html>

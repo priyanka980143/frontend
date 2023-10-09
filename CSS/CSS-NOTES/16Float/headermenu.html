@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ margin: 0; padding: 0;box-sizing: border-box; }
+        .main-menu ul li{ display: inline-block; }
+        .main-menu ul li a{ text-decoration: none; text-transform: capitalize; }
+        .float-r{ float: right; }
+        .float-l{ float: left; }
+        .container{ width: 1100px; margin: auto; }
+        .clear-float{
+            clear: both;
+        }
+        .m-100{
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>something</p>
+    </div>    
+    <header>
+        <div class="container">
+            <div class="col float-l">
+                Sports Club Lorem</div>
+            <div class="col float-r m-100">
+                <nav class="main-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">pages</a></li>
+                        <li><a href="#">sports</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                    <!-- <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">pages</a></li>
+                        <li><a href="#">sPorts</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">conTact</a></li>
+                    </ul> -->
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="clear-float"></div>
+    <div class="container">
+        <p>something</p>
+    </div>
+    
+</body>
+</html>
