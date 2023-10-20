@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <img src="ScopeOfVariable.png" alt="">
+    <br>
+    <img src="ScopeOfVariableDetailed.png" alt="">
+    <script>
+        var atesting = "checking"
+        let asomething = "data"
+        console.log(atesting);
+        console.log(asomething);
+        function checking_function(params) {
+            var avarinsidefunc = "variable in side function"
+            let aletinsidefunc = "let variable in side function"
+            console.log("Inside checking function",atesting);
+            console.log("Inside checking function",asomething);
+            console.log("Inside checking function",avarinsidefunc);
+            console.log("Inside checking function",aletinsidefunc);
+        }
+        checking_function()
+        // console.log("outside function var",varinsidefunc);
+        // console.log("outside function let",letinsidefunc);
+    </script>
+</body>
+</html>

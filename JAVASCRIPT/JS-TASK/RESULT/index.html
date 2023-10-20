@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marksheet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Result</h1>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" id="marks1" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter Marks 1">
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="marks2" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter Marks 2">
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="marks3" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter Marks 3">
+          </div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" id="marks4" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="Enter Marks 4">
+          </div>
+          <button onclick="calculate()" class="btn btn-secondary">Calculate</button><br><br>
+          <h3 id="total"></h3>
+          <h3 id="avg"></h3>
+    </div>
+    <script>
+        function calculate(){
+    let marks1 = parseInt(document.getElementById("marks1").value)
+    let marks2 = parseInt(document.getElementById("marks2").value)
+    let marks3 = parseInt(document.getElementById("marks3").value)
+    let marks4 = parseInt(document.getElementById("marks4").value)
+    let sum = marks1 + marks2 + marks3 + marks4
+    let avg = parseFloat(sum/4)
+    document.getElementById("total").innerHTML = "Total is : " + sum;
+    document.getElementById("avg").innerHTML = "Avarage is : " + avg;
+}
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
