@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald';
+    font-weight: 400;
+}
+
+.background {
+    background-color: black;
+    color: #fff;
+}
+
+.navbar-nav li a.nav-link.active {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+.button:hover {
+    background-color: #e8631c;
+    font-weight: 600;
+    text-decoration: underline;
+    color: white;
+}
+
+.button {
+    background-color: #e8631c;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.BannerHome {
+    position: relative;
+    color: white;
+    text-align: left;
+}
+
+.banner img {
+    height: 40rem;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8rem;
+    left: 3.5rem;
+}
+
+.BannerHeading {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+
+.product-head {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.grup-3 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grup-4 {
+    position: absolute;
+    top: 30%;
+
+}
+
+.ProductSection {
+    background-image: url('img/grup2/Background.png');
+    color: #fff;
+    padding-bottom: 100px;
+}
+
+.ProductHeading {
+    padding: 3rem;
+    text-align: center;
+}
+
+.card-body {
+    background-color: #303030;
+}
+
+.product-img 
+{
+    margin: -16px;
+}
+
+.CardBodyPara 
+{
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.product-head1 
+{
+    font-size: 65px;
+    color: #ffffff;
+    font-weight: 650;
+}
+
+.pricingSection 
+{
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding-bottom: 100px;
+}
+
+.pricingHeading {
+    padding: 3rem;
+    text-align: center;
+}
+
+.card-body1 {
+    background-color: #e8631c;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.button1 {
+    background-color: #2f2f2f;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 70px 5px 70px;
+}
+
+.icon-bar {
+    text-align: center;
+    padding: 16px;
+}
+
+.banner {
+    background-color: #e8631c;
+}
+
+.read-more {
+    background-color: #2f2f2f;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 70px 5px 70px;
+    margin: 0px 20px 20px 5px;
+}
+
+.pricing-list {
+    color: #fff;
+}
+
+.banner11 {
+    background-color: #e8631c;
+}
+
+.btn-more {
+    background-color: #2f2f2f;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 60px 5px 60px;
+    margin: 5px 25px 5px 25px;
+}
+
+.Statics-Section {
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding-bottom: 150px;
+}
+
+.StaticsHeading {
+    padding: 3rem;
+    text-align: center;
+}
+
+.subscribe {
+    background-image: url('img/grup2/Background.png');
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.subscribetHeading {
+    padding: 3rem;
+    text-align: center;
+}
+
+
+
+.HerbertHome {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    height: 40rem;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.HerbertHome {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.herb-para {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Oswald';
+}
+
+
+.subscribebtn {
+    background-color: #2f2f2f;
+    color: #fff;
+}
+
+.subscribebtn:hover {
+    background-color: #e8631c;
+    border: 1px solid #000;
+}
+
+.input-group {
+    padding: 25px 350px;
+}
+.footer-top {
+    background-image: url(img/grup3/footer.png);
+}
+
+.footer-links {
+    color: #ffffff;
+    margin: 40px 0px 40px 0px;
+    padding: 20px 40px 20px 50px;
+}
+
+a {
+    color: #fff;
+    list-style: none;
+} 
+
+
+.copyright {
+    background-color: #e8631c;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
