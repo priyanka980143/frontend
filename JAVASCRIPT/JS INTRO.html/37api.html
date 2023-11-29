@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <button onclick="btnClick()">Click</button>
+    <ol id="dispData">
+
+    </ol>
+
+    <script>
+        // const url = `https://api.opencagedata.com/geocode/v1/json?q=${city}&key=faed4d9eb29d483a866000c901ccb680`;
+        // fetch("https://dummyjson.com/products").then((res)=>{ console.log(res); return res.json()}).then()
+        
+        function btnClick(params) {
+            fetch("https://dummyjson.com/products").then((res)=>res.json()).then((result)=>{
+                // console.log(result);
+                // console.log(result.products);
+                HTMLList = ""
+                result.products.forEach(element => {
+                    // console.log(element);
+                    // console.log(element.title);
+                    // HTMLList += "<li>test</li>";
+                    // HTMLList += "<li>"+element.title+"</li>";
+                    HTMLList += `<li>${element.title}</li>`;
+                })
+                document.getElementById("dispData").innerHTML=HTMLList
+            })
+        }
+        // btnClick()
+    </script>
+
+</body>
+</html>

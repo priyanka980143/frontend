@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h2>Fucntion</h2>
+    <p>Functions are one of the fundamental building blocks in JavaScript. A function in JavaScript is similar to a
+        procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a
+        function, it should take some input and return an output where there is some obvious relationship between the
+        input and the output. To use a function, you must define it somewhere in the scope from which you wish to call
+        it.</p>
+        <ol>
+            <li>Default (alert,prompt...)</li>
+            <li>UDF</li>
+        </ol>
+    <script>
+        // Simple User Defined Function START
+        function testing() {
+            return "something"
+        }
+        // Simple User Defined Function END
+        
+        // User Defined Function Calling START
+        let ret = testing()
+        // User Defined Function Calling START
+        console.log(ret);
+        // Dynamic User Defined Function With Parameter START
+        // function addition(parameter1,parameter2,parameter...) {
+        function addition(a, b) {
+            return a+b 
+        }
+        // Dynamic User Defined Function With Parameter END
+        // Calling User Defined Dynamic Function with Arguments START
+        let Result = addition(50,90)
+        // Calling User Defined Dynamic Function with Arguments END
+        console.log("50+90 = ",Result);
+
+
+        // Default paramterised function START 
+        function additionDefaultParam(a, b=0) {
+            return a+b 
+        }
+        // Default paramterised function END 
+        // Dynamic User Defined Function With Default Parameter Calling START
+        console.log("50+90 = ",additionDefaultParam(50,90));
+        console.log("50 = ",additionDefaultParam(50));
+        // Dynamic User Defined Function With Default Parameter Calling END
+        
+        // var a = 50;
+        // var b = 50;
+        // var sum = a+b
+        // console.log(sum);
+        // console.log(sum);
+        // console.log(sum);
+        // console.log(sum);
+        // console.log(sum);
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

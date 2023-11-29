@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="ctl00_cphPageContents_dvDetails"
+        style="width :90%;padding-top:10px;color:#1E397E;margin-left:5%;padding-right:5%;    float:right;">
+        
+        <h2> JQuery selectors </h2> JQuery selectors allow you to select and manipulate HTML element(s).
+        JQuery selectors are used to find or select HTML elements on the basis of their id, classes, types, attributes,
+        values of attributes .
+        <br><br><b> Commonly used JQuery Selectors are-</b><br>
+        <b>1-Id Selector-</b>The jQuery #id selector uses the id attribute of an HTML element
+        to find the specific element.
+        Id of elemets is always unique in a page,so use #id selector when you want to find a single, unique element.<br>
+        <b> Syntex-$("#controlID") </b><br>
+        To select an element by id,write a hash character and then write the id of the HTML element which you want to
+        select.
+        <br>
+        <b>Example</b>-$("#txtFirst") <br>
+        Above code will select element which has id="txtFirst"
+        <br><br><b>2-Class Selector- </b>
+        The jQuery class selector finds elements which has specific class used in elements.
+        use class selector when you want to select group of elements.
+        <b><br> Syntex-$(".className") </b><br>
+        To select an element by class selector, write a period character and then name of the class.
+        <b><br> Example-$(".required") </b><br> Above code will select element those has required class.
+        <b><br><br>3-Element Selector-</b>
+        The jQuery element selector selects elements based on the element name.
+        Use element selector when you want to select all element of specific type.
+
+        <b><br> Syntex-$("ElementName") </b><br>
+        To select an element by element selector,write a element name inside parentheses.
+        <b><br> Example-$("p") </b><br>Above code will select all p element. <br><br>
+
+        Below table show other JQuery Selector <br>
+        <br><img alt="Lst of selector in Jquery" src="../Images/JQuery/Selectors.jpg"><br>
+        <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" style="display: block; text-align: center; height: 0px;" data-ad-layout="in-article"
+            data-ad-format="fluid" data-ad-client="ca-pub-3807898747601192" data-ad-slot="2834866925"
+            data-adsbygoogle-status="done" data-ad-status="unfilled">
+            <div id="aswift_3_host" tabindex="0" title="Advertisement" aria-label="Advertisement"
+                style="border: none; height: 0px; width: 850px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;">
+                <iframe id="aswift_3" name="aswift_3" browsingtopics="true"
+                    style="left: 0px; position: absolute; top: 0px; border: 0px; width: 850px; height: 0px;"
+                    sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                    width="850" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0"
+                    allowtransparency="true" scrolling="no" allow="attribution-reporting"
+                    src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3807898747601192&amp;output=html&amp;h=200&amp;slotname=2834866925&amp;adk=777220794&amp;adf=641987598&amp;pi=t.ma~as.2834866925&amp;w=850&amp;fwrn=4&amp;lmt=1698981501&amp;rafmt=11&amp;format=850x200&amp;url=http%3A%2F%2Fwww.virtualclasses.co.in%2FJQuery%2FJQuery-Selectors.aspx&amp;wgl=1&amp;dt=1698981501202&amp;bpp=1&amp;bdt=954&amp;idt=359&amp;shv=r20231031&amp;mjsv=m202310300101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;prev_fmts=0x0%2C550x70%2C850x200&amp;nras=1&amp;correlator=6935778732171&amp;frm=20&amp;pv=1&amp;ga_vid=1238044584.1698981502&amp;ga_sid=1698981502&amp;ga_hid=1165497798&amp;ga_fc=0&amp;rplot=4&amp;u_tz=330&amp;u_his=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_sd=1&amp;adx=250&amp;ady=1659&amp;biw=1349&amp;bih=651&amp;scr_x=0&amp;scr_y=0&amp;eid=44759876%2C44759927%2C44759837%2C31079097%2C44805931%2C44807047%2C44807336%2C44807454%2C31078297%2C31079328%2C44803792%2C31078668%2C31078670&amp;oid=2&amp;pvsid=3599282162262863&amp;tmod=689680101&amp;uas=0&amp;nvt=2&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C728%2C1366%2C651&amp;vis=1&amp;rsz=d%7Cd%7CEebr%7Cp&amp;abl=XS&amp;pfx=0&amp;fu=128&amp;bc=23&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=4&amp;uci=a!4&amp;btvi=1&amp;fsb=1&amp;xpc=NUPnD4e5th&amp;p=http%3A//www.virtualclasses.co.in&amp;dtd=362"
+                    data-google-container-id="a!4" data-google-query-id="CP6JoqbvpoIDFYMxtwAdD0EBqw"
+                    data-load-complete="true"></iframe></div>
+        </ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        <br><b>
+            <font size="5">Form Selector</font>
+        </b><br>
+        There are a number of different <b> INPUT </b> types in HTML and jQuery makes it simple to
+        select the different types of input elements, such as all the text fields, all the radio buttons,
+        all the submit buttons and so on.<br>
+        <b> Examples:</b><br>
+        1-To match all the text type fields in a document: $(':text')<br>
+        2-To target a specific form/div use the following instead:$('#myform :text')<br>
+        Using a form id as in this second example also speeds up the selector because
+        it does not have to scan the entire DOM to find all text inputs in the document.
+        <br>
+        3-To iterate through all the text fields.<br><b>
+
+            $('#myform :text').each(function() {<br>
+            // write your logic here<br>
+            });
+        </b><br>
+        4-Same way if you want to iterate through all the radio button-<b><br>
+            $(':radio') each(function() {<br>
+            // write your logic here<br>
+            });
+        </b><br><br><b>
+            <font size="4.5">
+                Summary of selectors </font>
+        </b><br>
+        <b> 1- $(':input')</b> matches all input and textarea fields.
+        <br><b>2- $(':text') </b> matches all text type fields.
+        <br><b> 3- $(':password') </b>matches all password fields.
+        <br><b>4- $(':radio') </b> matches all radio buttons.
+        <br><b>5- $(':checkbox')</b>matches all checkboxes.
+        <br><b>6- $(':submit')</b>&gt;matches all submit buttons.
+        <br><b>7- $(':image') </b> matches all image type inputs.
+        <br><b>8-$(':reset') </b> matches all reset buttons.
+        <br><b>9- $(':button') </b> matches all input buttons with the type button.
+        <br><b>10- $(':file') </b> matches all file upload fields.
+        <br>
+        <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" style="display: block; text-align: center; height: 0px;" data-ad-layout="in-article"
+            data-ad-format="fluid" data-ad-client="ca-pub-3807898747601192" data-ad-slot="2834866925"
+            data-adsbygoogle-status="done" data-ad-status="unfilled">
+            <div id="aswift_4_host" tabindex="0" title="Advertisement" aria-label="Advertisement"
+                style="border: none; height: 0px; width: 850px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;">
+                <iframe id="aswift_4" name="aswift_4" browsingtopics="true"
+                    style="left: 0px; position: absolute; top: 0px; border: 0px; width: 850px; height: 0px;"
+                    sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                    width="850" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0"
+                    allowtransparency="true" scrolling="no" allow="attribution-reporting"
+                    src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3807898747601192&amp;output=html&amp;h=200&amp;slotname=2834866925&amp;adk=777220794&amp;adf=779690643&amp;pi=t.ma~as.2834866925&amp;w=850&amp;fwrn=4&amp;lmt=1698981501&amp;rafmt=11&amp;format=850x200&amp;url=http%3A%2F%2Fwww.virtualclasses.co.in%2FJQuery%2FJQuery-Selectors.aspx&amp;wgl=1&amp;dt=1698981501203&amp;bpp=1&amp;bdt=954&amp;idt=362&amp;shv=r20231031&amp;mjsv=m202310300101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;prev_fmts=0x0%2C550x70%2C850x200%2C850x200&amp;nras=1&amp;correlator=6935778732171&amp;frm=20&amp;pv=1&amp;ga_vid=1238044584.1698981502&amp;ga_sid=1698981502&amp;ga_hid=1165497798&amp;ga_fc=0&amp;rplot=4&amp;u_tz=330&amp;u_his=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_sd=1&amp;adx=250&amp;ady=2393&amp;biw=1349&amp;bih=651&amp;scr_x=0&amp;scr_y=0&amp;eid=44759876%2C44759927%2C44759837%2C31079097%2C44805931%2C44807047%2C44807336%2C44807454%2C31078297%2C31079328%2C44803792%2C31078668%2C31078670&amp;oid=2&amp;pvsid=3599282162262863&amp;tmod=689680101&amp;uas=0&amp;nvt=2&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C728%2C1366%2C651&amp;vis=1&amp;rsz=d%7Cd%7CEebr%7Cp&amp;abl=XS&amp;pfx=0&amp;fu=128&amp;bc=23&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=5&amp;uci=a!5&amp;btvi=2&amp;fsb=1&amp;xpc=dalAYIedJV&amp;p=http%3A//www.virtualclasses.co.in&amp;dtd=365"
+                    data-google-container-id="a!5" data-google-query-id="CIyToqbvpoIDFXQqtwAdAjcM1Q"
+                    data-load-complete="true"></iframe></div>
+        </ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script><br><br><b>
+            <font size="5">Attribute Selector</font>
+        </b><br>
+        The [attribute=value] selector selects each element with the specified attribute and value.
+        <br><b> Syntax:</b>$("[attribute=value]")<br>
+        attribute:Required. Specifies the attribute to find<br>
+        value:Required. Specifies the value to find<br>
+        Ex-<textarea rows="1" cols="50">&lt;a href="a"&gt;Hello&lt;/a&gt;
+    &lt;a href="a"&gt; Hello Again&lt;/a&gt;</textarea><br>
+        $("[href=a]").css("background-color", "yellow");<br>
+        Above code will chnage the tag which has href value 'a' to yellow.
+        <br><br>
+
+
+        <script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle" style="display: block; text-align: center; height: 0px;" data-ad-layout="in-article"
+            data-ad-format="fluid" data-ad-client="ca-pub-3807898747601192" data-ad-slot="2834866925"
+            data-adsbygoogle-status="done" data-ad-status="unfilled">
+            <div id="aswift_5_host" tabindex="0" title="Advertisement" aria-label="Advertisement"
+                style="border: none; height: 0px; width: 850px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block; overflow: hidden; opacity: 0;">
+                <iframe id="aswift_5" name="aswift_5" browsingtopics="true"
+                    style="left: 0px; position: absolute; top: 0px; border: 0px; width: 850px; height: 0px;"
+                    sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                    width="850" height="0" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0"
+                    allowtransparency="true" scrolling="no" allow="attribution-reporting"
+                    src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3807898747601192&amp;output=html&amp;h=200&amp;slotname=2834866925&amp;adk=777220794&amp;adf=3096663611&amp;pi=t.ma~as.2834866925&amp;w=850&amp;fwrn=4&amp;lmt=1698981501&amp;rafmt=11&amp;format=850x200&amp;url=http%3A%2F%2Fwww.virtualclasses.co.in%2FJQuery%2FJQuery-Selectors.aspx&amp;wgl=1&amp;dt=1698981501203&amp;bpp=1&amp;bdt=954&amp;idt=369&amp;shv=r20231031&amp;mjsv=m202310300101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;prev_fmts=0x0%2C550x70%2C850x200%2C850x200%2C850x200%2C120x600%2C120x500%2C120x400&amp;nras=1&amp;correlator=6935778732171&amp;frm=20&amp;pv=1&amp;ga_vid=1238044584.1698981502&amp;ga_sid=1698981502&amp;ga_hid=1165497798&amp;ga_fc=0&amp;rplot=4&amp;u_tz=330&amp;u_his=1&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_sd=1&amp;adx=250&amp;ady=2807&amp;biw=1349&amp;bih=651&amp;scr_x=0&amp;scr_y=243&amp;eid=44759876%2C44759927%2C44759837%2C31079097%2C44805931%2C44807047%2C44807336%2C44807454%2C31078297%2C31079328%2C44803792%2C31078668%2C31078670&amp;oid=2&amp;pvsid=3599282162262863&amp;tmod=689680101&amp;uas=0&amp;nvt=2&amp;ref=https%3A%2F%2Fwww.google.com%2F&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C1366%2C0%2C1366%2C728%2C1366%2C651&amp;vis=1&amp;rsz=d%7Cd%7CEebr%7Cp&amp;abl=XS&amp;pfx=0&amp;fu=128&amp;bc=23&amp;psd=W251bGwsbnVsbCxudWxsLDNd&amp;nt=1&amp;ifi=6&amp;uci=a!6&amp;btvi=6&amp;fsb=1&amp;xpc=LOcJF2Lr4x&amp;p=http%3A//www.virtualclasses.co.in&amp;dtd=669"
+                    data-google-container-id="a!6" data-google-query-id="COeXoqbvpoIDFVz3cwEdagUDkA"
+                    data-load-complete="true"></iframe></div>
+        </ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script><br><br>
+        <div style="background-color:White;vertical-align:middle;margin-right:15px;">
+            <input type="image" name="ctl00$cphPageContents$ImageButton1" id="ctl00_cphPageContents_ImageButton1"
+                src="../Images/Common/Prev.jpg" style="height:48px;width:48px;border-width:0px;">
+
+            <input type="image" name="ctl00$cphPageContents$ImageButton2" id="ctl00_cphPageContents_ImageButton2"
+                class="floatRight" src="../Images/Common/Next.jpg" style="height:48px;width:48px;border-width:0px;">
+        </div>
+    </div>
+
+</body>
+
+</html>

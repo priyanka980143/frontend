@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div id="formfield"></div>
+    <input type="button" value="Click" name="btn" id="btn">
+
+
+    <script>
+        var formfield = document.getElementById('formfield');
+
+        // document.getElementById("btn").addEventListener("click", function () {
+        //     // console.log("called");
+        //     // createElement
+        //     let newField = document.createElement("input")
+        //     // console.log(InputField);
+        //     newField.setAttribute('type', 'text');
+        //     newField.setAttribute('name', 'text');
+        //     newField.setAttribute('class', 'text');
+        //     newField.setAttribute('siz', 50);
+        //     newField.setAttribute('placeholder', 'Optional Field');
+        //     formfield.appendChild(newField);
+        // })
+        document.getElementById("btn").addEventListener("click", function () {
+            // console.log("called");
+            // createElement
+            // let newField = "<input type="button" value="Click" name="btn" id="btn">" //Uncaught SyntaxError: Unexpected identifier 'button'
+            // let uname = "Data"
+            // // let newField = '<input type="text" value="Click" name="btn" id="btn">'
+            // let newField = '<input type="text" value="'+uname+'" name="btn" id="btn">'
+            // let newField = '<input type="text" value="'+uname+'" name="btn" id="btn">'
+            // let newField = '<table>
+            //     <tr>
+            //         <td><label for="">User Name</label></td>
+            //         <td><input type="text" name="" id=""></td>
+            //     </tr>
+            // </table > '
+            // let newField = '<table> <tr> <td><label for="">User Name</label></td> <td><input type="text" name=" id=""></td> </tr > </table> '
+            let varaibleData = "Something Stored in JS variable"
+            // let newField = `<table>
+            //      <tr>
+            //          <td><label for="">User Name</label></td>
+            //          <td><input type="text" value="`+ varaibleData +`" name="" id=""></td>
+            //      </tr>
+            //  </table > `
+            let newField = `<table>
+                 <tr>
+                     <td><label for="">User Name</label></td>
+                     <td><input type="text" value="${varaibleData}" name="" id=""></td>
+                 </tr>
+             </table > `
+            // fName = "Test"
+            // lName = "Checking"
+
+            // formfield.append(newField);
+            // formfield.innerHTML=fName lName;
+            // formfield.innerHTML=fName+" "+lName;
+            formfield.innerHTML = newField;
+        })
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Loop</h2>
+    <p>for (init; condition; Process/Progress) { }</p>
+    <p>for (let index = 0; index &lt; 10; index++) { }</p>
+     
+
+    <ol>
+        <li>Entry Control [for,foreach,while][for...of,for...in]</li>
+        <li>Exit Control do...while</li>
+    </ol>
+
+    <script>
+        // for (let index = 0; index < array.length; index++) { }
+        for (let index = 0; index < 10; index++) { 
+            console.log("called",index);
+        }
+        let Marks = [50,90,80,99] 
+        console.log(Marks);
+        // console.log(Marks[0]);
+        // console.log(Marks[1]);
+        // console.log(Marks[2]);
+        // console.log(Marks[3]);
+        Marks.forEach(element => {
+            console.log("insinde foreach: ",element);
+        });
+        
+        for (let index = 0; index < Marks.length; index++) {
+            const element = Marks[index];
+            console.log("insinde for: ",element);
+            
+        }
+
+
+        let whiledata = 0
+        while (whiledata < 10) {
+            console.log("called inside while");
+            whiledata++
+        }
+        
+        let dowhiledata = 0
+        do {
+            console.log("inside do...while",dowhiledata);
+            dowhiledata++
+        } while (dowhiledata > 10);
+
+
+    </script>
+</body>
+</html>

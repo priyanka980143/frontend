@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        function cust_func(params) {
+            console.log("called custom function");
+        }
+        setInterval(cust_func, 3000);
+        // setInterval(() => {
+        //     console.log("inside setInterval");  
+        // }, 3000);
+        setTimeout(() => {
+          console.log("called inside settimeout");  
+        }, 2000);
+        // setTimeout(callbackfunction, timeout);
+    </script>
+
+</body>
+</html>

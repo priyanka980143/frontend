@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <style>
+        .box {
+            line-height: 100px;
+            background-color: teal;
+            color: white;
+        }
+
+        .disp-none {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <button id="btnjqadd">Click add jQuery</button>
+    <button id="btnjqremove">Click remove jQuery</button>
+    <button id="btnjqtoggle">Click toggle jQuery</button>
+    <button id="btnjs">Click JavaScript Add Class</button>
+    <button id="btnjsremove">Click JavaScript Remove Class</button>
+    <button id="btnjstoggle">Click JavaScript Toggle Class</button>
+
+
+    <div class="box" id="box">
+        <h2>Menu</h2>
+    </div>
+
+    <script>
+        // JavaScript
+        document.getElementById("btnjs").addEventListener("click", function () {
+            // console.log("js called");
+            document.getElementById("box").classList.add("disp-none")
+
+        })
+        document.getElementById("btnjsremove").addEventListener("click", function () {
+            // console.log("js called");
+            document.getElementById("box").classList.remove("disp-none")
+
+        })
+        document.getElementById("btnjstoggle").addEventListener("click", function () {
+            // console.log("js called");
+            let ClassList = document.getElementById("box").classList
+            console.log(ClassList.length);
+            if (ClassList.length > 1) {
+                document.getElementById("box").classList.remove("disp-none")
+            } else {
+                document.getElementById("box").classList.add("disp-none")
+            }
+        })
+        // jquery
+        $("#btnjqadd").on("click", function () {
+            // console.log("jQuery called");
+            // $("#box").addClass("disp-none")
+        })
+        $("#btnjqremove").on("click", function () {
+            $("#box").removeClass("disp-none")
+            // console.log("jQuery called");
+        })
+        $("#btnjqtoggle").on("click", function () {
+            $("#box").toggleClass("disp-none")
+            // console.log("jQuery called");
+        })
+    </script>
+
+</body>
+
+</html>

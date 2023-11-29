@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <input type="email" onblur="checkreq(this)" name="email" id="email"> -->
+    <!-- <input type="email" onfocus="checkreq(this)" name="email" id="email"> -->
+    <!-- <input type="email" onclick="checkreq(this)" name="email" id="email"> -->
+    <!-- <input type="email" onkeydown="checkreq(this)" name="email" id="email"> -->
+    <!-- <input type="email" onkeypress="checkreq(this)" name="email" id="email"> -->
+    <input type="email" onkeyup="checkreq(this)" name="email" id="email">
+    <span id="EmailValidate"></span>
+    <script>
+        function checkreq(e) {
+            // console.log(e);
+            // console.log(e.value);
+            // let Reg = /^[a-z]/ check only Small Alpha
+            // let Reg = /^[a-zA-Z]/ //check only Alpha (small-cap)
+            // let Reg = /^[0-9]/ //check only Numbers
+            // let EmailReg = /^[a-z0-9._%+-]/
+            let EmailReg = /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/
+            let inpData = e.value
+            console.log(EmailReg.test(inpData));
+            if (!EmailReg.test(inpData)) {
+                document.getElementById("EmailValidate").innerHTML="Invalid Format"
+            } else {
+                document.getElementById("EmailValidate").innerHTML="Valid"
+                
+            }
+        }
+    </script>
+</body>
+
+</html>

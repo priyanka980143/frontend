@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+
+    <input id="check1" type="checkbox" checked="checked">
+    <label for="check1">Check me</label>
+    <p></p>
+    <input type="button" value="Save" disabled name="" id="btn">
+    <script>
+        $("input").on("change", function () {
+            console.log("called");
+            var $input = $(this);
+            console.log($(this).attr('checked'));
+            console.log($input.attr('checked'));
+            $("p").html(
+                ".attr( \"checked\" ): <b>" + $input.attr("checked") + "</b><br>" +
+                ".prop( \"checked\" ): <b>" + $input.prop("checked") + "</b><br>" +
+                ".is( \":checked\" ): <b>" + $input.is(":checked") + "</b>"
+                // '.attr( "checked" ): <b>' 
+                // `.attr( "checked" ): <b>` 
+            )
+            if ($input.prop("checked")) {
+                $("#btn").prop("disabled", false);
+            } else {
+                $("#btn").prop("disabled", true);
+            }
+        })  
+    </script>
+
+</body>
+
+</html>
