@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery Basic</title>
+
+    <style>
+        h1,legend{
+            text-align: center;
+            /* color: cadetblue; */
+            
+        }
+        h2 {
+            color: cadetblue;
+    }
+    p {
+            color: rgb(65, 63, 63)
+        }
+
+       
+    </style>
+</head>
+<body>
+    <fieldset>
+    <legend><h1>Module 7)JQuery Basic,Effects & Advanced</h1></legend>
+    
+
+    <h2>Q-1. What is jQuery?</h2>
+    <p>jQuery is a JavaScript library designed to simplify HTML document traversal and manipulation, as well as event
+        handling, animation, and AJAX (asynchronous JavaScript and XML). It provides a concise and easy-to-use syntax
+        for common tasks performed in client-side web development.</p>
+    <p>One of the key features of jQuery is its ability to allow developers to write less code while achieving the same
+        functionality compared to raw JavaScript. It was particularly popular in the early days of web development, but
+        with advancements in browser capabilities and the rise of modern frameworks, its usage has somewhat declined.
+    </p>
+    <p>jQuery includes the following features:</p>
+    <li>DOM element selections using the multi-browser open source selector engine Sizzle, a spin-off of the jQuery project</li>
+    <li>Events</li>
+    <li>Effects and animations</li>
+    <li>Ajax</li>
+    <li>Deferred and Promise objects to control asynchronous processing</li>
+    <li>JSON parsing</li>
+    <li>Extensibility through plug-ins</li>
+    <li>Compatibility methods that are natively available in modern browsers, but need fallbacks for old browsers, such as jQuery.inArray() and jQuery.each()</li>
+    <hr>
+
+    <h2>Q-2.How to Apply CSS Using JQuery, How to Add Class and Remove Class in
+        Jquery, JQuery Animation?</h2>
+    <h4><u>Applying CSS using jQuery:</u></h4>
+    <p>You can use the css() method to apply CSS styles to elements. Here's a simple example:</p>
+    <b>example:-</b>
+    <p>
+        // Set CSS styles <br>
+        $(document).ready(function () {<br>
+        $('p').css('color', 'blue');<br>
+        });</p>
+    <h4><u>Adding and Removing Classes:</u></h4>
+    <p>You can use the addClass() and removeClass() methods to add and remove classes, respectively:</p>
+    <b>example:-</b>
+    <p>
+        // Add a class<br>
+        $(document).ready(function(){<br>
+        $('p').addClass('highlight');<br>
+        });</p>
+    <p>
+        // Remove a class<br>
+        $(document).ready(function(){<br>
+        $('p').removeClass('highlight');<br>
+        });</p>
+
+    <h4><u>jQuery Animation:</u></h4>
+    <p>jQuery provides various methods for animation. The animate() method is commonly used for creating animations.
+        Here's a basic example:</p>
+    <b>example:-</b>
+    <p>// Simple animation<br>
+        $(document).ready(function(){<br>
+        $('div').animate({<br>
+        opacity: 0.5,<br>
+        width: '50%'<br>
+        }, 1000); // 1000 milliseconds (1 second) duration<br>
+        });</p>
+
+
+
+    </fieldset>
+
+</body>
+</html>
+
