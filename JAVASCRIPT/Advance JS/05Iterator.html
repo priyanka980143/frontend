@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="disp"></div>
+    <script>
+        let range = {
+            from: 1,
+            to: 5
+        };
+
+        // // We want the for..of to work:
+        // for(let num of range){
+        //     // num=1,2,3,4,5
+        //     console.log(num);
+        // }
+        // userdata = ["test","checking",1]
+        // document.getElementById("disp").innerHTML=userdata
+        range[Symbol.iterator] = function () {
+            return {
+                current: this.from,
+                last: this.to,
+                next() {
+                    if (this.current <= this.last) {
+                        return { done: false, value: this.current++ };
+                    } else {
+                        return { done: true };
+                    }
+                }
+            }
+        }
+
+        for (let num of range) {
+            console.log(num);
+            // alert(num); // 1, then 2, 3, 4, 5
+        }
+
+        // for (let index = 0; index < array.length; index++) { }
+    </script>
+
+</body>
+
+</html>
