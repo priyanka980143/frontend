@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h3>Map and Set</h3>
+    <p>Till now, we’ve learned about the following complex data structures:</p>
+    <ul>
+        <li>Objects are used for storing keyed collections.</li>
+        <li>Arrays are used for storing ordered collections.</li>
+    </ul>
+    <p>But that’s not enough for real life. That’s why Map and Set also exist.</p>
+
+    <h4>Map</h4>
+    <ul>
+        <li><a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/Map"><code>new Map()</code></a>
+            – creates the map.</li>
+        <li><a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/set"><code>map.set(key, value)</code></a>
+            – stores the value by the key.</li>
+        <li><a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/get"><code>map.get(key)</code></a>
+            – returns the value by the key, <code>undefined</code> if <code>key</code> doesn’t exist in map.</li>
+        <li><a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/has"><code>map.has(key)</code></a>
+            – returns <code>true</code> if the <code>key</code> exists, <code>false</code> otherwise.</li>
+        <li><a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/delete"><code>map.delete(key)</code></a>
+            – removes the element (the key/value pair) by the key.</li>
+        <li><a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/clear"><code>map.clear()</code></a>
+            – removes everything from the map.</li>
+        <li><a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map/size"><code>map.size</code></a>
+            – returns the current element count.</li>
+    </ul>
+
+
+    <h4>Set</h4>
+
+    <ul>
+        <li><code>new Set([iterable])</code> – creates the set, and if an <code>iterable</code> object is provided (usually an array), copies values from it into the set.</li>
+        <li><code>set.add(value)</code> – adds a value, returns the set itself.</li>
+        <li><code>set.delete(value)</code> – removes the value, returns <code>true</code> if <code>value</code> existed at the moment of the call, otherwise <code>false</code>.</li>
+        <li><code>set.has(value)</code> – returns <code>true</code> if the value exists in the set, otherwise <code>false</code>.</li>
+        <li><code>set.clear()</code> – removes everything from the set.</li>
+        <li><code>set.size</code> – is the elements count.</li>
+        </ul>
+    <script>
+
+        data = { "1": "data", 1: "checking" }
+        console.log(data);
+        let koibhi = new Map();
+        // console.log(koibhi);
+        koibhi.set('1', 'str1');   // a string key
+        koibhi.set(1, 'num1');     // a numeric key
+        koibhi.set(true, 'bool1'); // a boolean key
+        console.log(koibhi);
+
+        let recipeMap = new Map([
+            ['cucumber', 500],
+            ['tomatoes', 350],
+            ['onion', 50]
+        ]);
+
+        // iterate over keys (vegetables)
+        for (let vegetable of recipeMap.keys()) {
+            console.log(vegetable); // cucumber, tomatoes, onion
+        }
+    </script>
+</body>
+
+</html>
