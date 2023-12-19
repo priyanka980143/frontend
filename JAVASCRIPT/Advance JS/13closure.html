@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        let countOut = 0;
+        var varcountOut = 0;
+        function makeCounter() {
+            let count = 0;
+            var varcount = 0;
+
+            console.log("inside function","inside count",count++,"inside varcount",varcount++,"outside count",countOut++,"outside varcount",varcountOut++); 
+            function something(params) {
+                    return [count++,varcount++,countOut++,varcountOut++];
+            }
+
+            // return something()
+            return something
+
+            // return function () {
+            //     return count++;
+            // };
+        }
+
+        makeCounter()
+        makeCounter()
+        makeCounter()
+        makeCounter()
+        let counter = makeCounter();
+        // console.log(counter);
+        console.log(counter()); // 0
+        console.log(counter()); // 1
+        console.log(counter()); // 2
+    </script>
+</body>
+
+</html>

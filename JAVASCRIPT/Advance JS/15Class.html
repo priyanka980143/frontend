@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // function addition(a,b) {
+        //     return a+b
+        // }
+        // console.log(addition(50,4));
+        
+        class MathOp{
+            // function addition(a,b) { //Uncaught SyntaxError: Unexpected identifier 'addition'
+            addition(a,b) { 
+                return a+b
+            }
+            additionarrow = (a,b) =>{ 
+                return a+b
+            }
+            
+        }
+        // console.log(addition(50,4)); //Uncaught ReferenceError: addition is not defined
+        // var MathOp =  new MathOp; //Uncaught SyntaxError: Identifier 'MathOp' has already been declared
+        let MathOpClassOb =  new MathOp;
+        // console.log(MathOpClassOb);
+        console.log(MathOpClassOb.addition(5,90));
+        console.log(MathOpClassOb.additionarrow(5,90));
+    </script>
+    
+</body>
+</html>

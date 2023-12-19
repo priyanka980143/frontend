@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="js-post-content">
+
+        <h2 class="wp-block-heading" id="json-and-javascript">JSON and JavaScript</h2>
+        <h3 class="wp-block-heading" id="what-is-json">What is JSON?</h3>
+        <p>JSON is short for JavaScript Object Notation. So is JSON JavaScript? Not exactly. <strong>JSON is a data
+                format that is independent of any </strong><a
+                href="https://www.koombea.com/blog/best-back-end-languages-how-to-choose-the-perfect-one/"
+                target="_blank"><strong>programming language</strong></a><strong>, although it is derived from
+            </strong><strong>JavaScript</strong>. The bulk of modern programming languages contain code that can
+            generate and parse JSON data.&nbsp;</p>
+        <p>A few notes on JSON:</p>
+        <ul>
+            <li>It is a lightweight format for storing and transporting data</li>
+            <li>The syntax is self-describing, making it easy for humans to read and understand</li>
+            <li>Typically, JSON is used when data is sent from a server to a web page&nbsp;</li>
+        </ul>
+        <p>JSON data is structured in two basic ways: a key/value pair or a collection of such pairs, or an ordered
+            list. JSON allows six different types of data to be stored or transported, including:&nbsp;</p>
+        <ul>
+            <li>Array</li>
+            <li>Null</li>
+            <li>Boolean</li>
+            <li>String&nbsp;</li>
+            <li>Number&nbsp;</li>
+            <li>Object</li>
+        </ul>
+        <p>As you can see, JavaScript and JSON are two completely different things. While JSON is derived from
+            JavaScript, the two are not exactly comparable in any way. However, we can compare JSON to JavaScript
+            objects. These two are more closely related, and they offer us a better comparison.&nbsp;</p>
+        <h3 class="wp-block-heading" id="what-are-javascript-objects">What are JavaScript Objects?</h3>
+        <p>JavaScript objects are also used to store data. <strong>All </strong><strong>JavaScript</strong><strong>
+                values are actually objects with the exception of primitive data types</strong>, null, Boolean, number,
+            string, symbol, and undefined. JavaScript objects can get complex because they can contain a number of
+            different primitive data combinations.&nbsp;</p>
+        <p>JavaScript objects are also structured in key/value pairs. They can be created by object constructor syntax,
+            object literals, constructors, and prototypes. JavaScript objects are mutable. This means that you can
+            change the value for a respective key in a key/value pair.&nbsp;</p>
+        <h2 class="wp-block-heading" id="json-vs-javascript-objects-what-are-the-differences">JSON Vs. JavaScript
+            Objects: What are the Differences?</h2>
+        <p>Before we look at the ways in which JSON and JavaScript objects differ, it is important to understand that
+            JSON and JavaScript objects are far more similar than they are different. JSON is derived from JavaScript
+            object literal syntax. In fact, the simplest explanation would be that <strong>JSON is
+            </strong><strong>JavaScript object</strong><strong> literal syntax but with more
+                restrictions</strong>.&nbsp;</p>
+        <p>JSON and JavaScript objects are both human-readable. They both give users a way to structure data, and they
+            can both be used as the source for another source. When it comes to differences, JSON and JavaScript objects
+            differ in a few key ways:</p>
+        <ul>
+            <li>Language dependency&nbsp;</li>
+            <li>Text only&nbsp;</li>
+            <li>String vs. object</li>
+        </ul>
+        <h3 class="wp-block-heading" id="language-dependency">Language Dependency</h3>
+        <p>One of the biggest differences between JSON and JavaScript objects is the dependency on a programming
+            language. JavaScript objects are completely dependent on JavaScript. They wouldn’t work with any other
+            programming language.&nbsp;</p>
+        <p>On the other hand, <strong>JSON is supported by more than 50 different </strong><strong>programming
+                languages</strong>, including popular languages such as:</p>
+        <ul>
+            <li>Ruby</li>
+            <li>Perl</li>
+            <li>C</li>
+            <li>Python</li>
+            <li>PHP</li>
+            <li>JavaScript</li>
+        </ul>
+        <p>This wide array of support makes JSON a flexible choice for data storage and transfer.&nbsp;</p>
+        <h3 class="wp-block-heading" id="text-only">Text Only</h3>
+        <p><strong>JSON data</strong><strong> can only be presented in text</strong>. You cannot add comments or other
+            lines of code to JSON. This rigidity is the reason why so many other programming languages can generate and
+            parse JSON.&nbsp;</p>
+        <p>JavaScript objects can include other code such as functions and methods. This allows for a greater degree of
+            complexity and function.&nbsp;</p>
+        <h3 class="wp-block-heading" id="string-vs-object">String Vs. Object</h3>
+        <p>The last major difference between JSON and JavaScript objects is the way they are presented. JSON is
+            presented in a string. These are referred to as JSON strings. JavaScript objects can contain strings, but
+            they are, as their name suggests, objects instead of strings. Objects are more complex than strings.</p>
+        <h2 class="wp-block-heading" id="final-thoughts">Final Thoughts&nbsp;</h2>
+        <p>The differences between JSON and JavaScript objects are slight and nuanced. Likely, your organization won’t
+            have to worry about making a choice between these two unless you are a tech company working in web
+            development.</p>
+        <p>If you need help determining what path is right for your organization, seek help from an <a
+                href="http://koombea.com" target="_blank">app development partner</a>. A partner can use their technical
+            expertise and industry experience to help guide you through all of the critical decisions you will need to
+            make, and they can help you understand nuanced comparisons like JSON vs. JavaScript objects.</p>
+    </div>
+    <table border="0">
+        <tbody>
+            <tr>
+                <th>JSON</th>
+                <th>JavaScript Object</th>
+            </tr>
+            <tr>
+                <td>The key in key/value pair should be in double quotes.</td>
+                <td>The key in key/value pair can be without double quotes.</td>
+            </tr>
+            <tr>
+                <td>JSON cannot contain functions.</td>
+                <td>JavaScript objects can contain functions.</td>
+            </tr>
+            <tr>
+                <td>JSON can be created and used by other programming languages.</td>
+                <td>JavaScript objects can only be used in JavaScript.</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        // ObjectOfUsers = { username: "test", password: "123" }
+        // console.log(ObjectOfUsers);
+        // JSONObjectOfUsers = { "username": "test", "password": "123" }
+        // console.log(JSONObjectOfUsers);
+
+        let student = {
+            name: 'John',
+            age: 30,
+            isAdmin: false,
+            courses: ['html', 'css', 'js'],
+            spouse: null
+        };
+
+        console.log(typeof student); // we've got an Object
+        console.log(student); // we've got an Object
+        let json = JSON.stringify(student);
+
+        console.log(typeof json); // we've got a string!
+
+        console.log(json);
+
+        console.log(JSON.stringify(1)) // 1
+
+        // a string in JSON is still a string, but double-quoted
+        console.log(JSON.stringify('test')) // "test"
+
+        console.log(JSON.stringify(true)); // true
+
+        console.log(JSON.stringify([1, 2, 3])); // [1,2,3]
+
+        let numbers = "[0, 1, 2, 3]";
+
+        console.log(numbers);
+        numbers = JSON.parse(numbers);
+        console.log(numbers); // 1
+
+        console.log(numbers[1]); // 1
+    </script>
+</body>
+
+</html>
