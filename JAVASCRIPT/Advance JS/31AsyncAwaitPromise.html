@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        function fetchData() {
+
+            return new Promise(resolve => {
+                //  setTimeout(() => {
+                //     // resolve("data").
+                //     fetch("https://jayramin.000webhostapp.com/allusers").then((res) => res.json()).then((response) => {
+                //         resolve(response.Data);
+                //     })
+                //  }, 2000);
+                fetch("https://jayramin.000webhostapp.com/allusers").then((res) => res.json()).then((response) => { resolve(response.Data); })
+            })
+            // console.log("inside fetch data");
+            // let FetchData = fetch("https://jayramin.000webhostapp.com/allusers").then((res) => res.json()).then((response) => {
+            //     console.log("inside api fetch",response);
+            //     return response
+            // })
+            // console.log("after fetch data",FetchData);
+            // return FetchData
+        }
+        async function displayData() {
+            console.log("inside display data before fetch data");
+            let ResponseData = await fetchData()
+            console.log(ResponseData);
+            console.log("inside display data after fetch data");
+        }
+        displayData()
+    </script>
+
+</body>
+
+</html>

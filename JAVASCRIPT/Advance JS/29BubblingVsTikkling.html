@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Event Bubbling</title>
+  <style>
+    *{
+      border: 1px solid;
+      padding: 3px;
+    }
+    #grandparent{ border: 2px solid orangered; }
+    #parent{ border: 2px solid rgb(0, 255, 64); }
+    #child{ border: 2px solid rgb(53, 22, 163); }
+  </style>
+</head>
+
+<body>
+  <!-- <div id="p1">  
+    <button id="c1">I am child button</button>  
+  </div>   -->
+
+  <div>
+    <h2>Welcome To Test</h2>
+    <div id="grandparent">GrandParent
+      <div id="parent">Parent
+        <div id="child">Child</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const grandParent = document.getElementById("grandparent");
+    const parent = document.getElementById("parent");
+    const child = document.getElementById("child");
+
+    grandParent.addEventListener("click", (e) => {
+      // event.preventDefault()
+      event.stopPropagation()
+      console.log("GrandParent");
+    },false);
+    parent.addEventListener("click", (e) => {
+      event.stopPropagation()
+      console.log("Parent");
+    },false);
+    child.addEventListener("click", (e) => {
+      event.stopPropagation()
+      console.log("Child");
+    },false);
+
+
+
+    // grandParent.addEventListener("click", (e) => {
+    //   console.log("GrandParent");
+    // },false);
+    // parent.addEventListener("click", (e) => {
+    //   console.log("Parent");
+    // },false);
+    // child.addEventListener("click", (e) => {
+    //   console.log("Child");
+    // },false);
+
+
+    // grandParent.addEventListener("click", (e) => {
+    //   console.log("GrandParent");
+    // },true);
+    // parent.addEventListener("click", (e) => {
+    //   console.log("Parent");
+    // },true);
+    // child.addEventListener("click", (e) => {
+    //   console.log("Child");
+    // },true);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </script>
+</body>
+
+</html>
