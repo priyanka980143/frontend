@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <pre>
+        The two most used data structures in JavaScript are Object and Array.
+
+        Objects allow us to create a single entity that stores data items by key.
+        Arrays allow us to gather data items into an ordered list.
+        Although, when we pass those to a function, it may need not be an object/array as a whole. It may need individual pieces.
+
+        Destructuring assignment is a special syntax that allows us to “unpack” arrays or objects into a bunch of variables, as sometimes that’s more convenient.
+
+        Destructuring also works great with complex functions that have a lot of parameters, default values, and so on. Soon we’ll see that.
+    </pre>
+    <script>
+        let arr = ["John", "Smith"]
+
+        // destructuring assignment
+        // sets firstName = arr[0]
+        // and surname = arr[1]
+        let [firstName, surname] = arr;
+
+        console.log(firstName); // John
+        console.log(surname);  // Smith
+
+
+        let options = {
+            title: "Menu",
+            width: 100,
+            height: 200
+        };
+
+        let { title, width, height } = options;
+
+    </script>
+
+</body>
+
+</html>
