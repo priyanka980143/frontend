@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p>constructor is a method which is invoked by default when objects are created.</p>
+    <p>constructor never return.</p>
+    <p>constructor is used for init some value</p>
+    <p>Parameterzied constructor pass arg while creating an object of class</p>
+    <script>
+
+        // class MyClass{
+        //     constructor(){
+        //         console.log("inside constructor");
+        //         return "constructor"
+        //     }
+        //     CustomMethod(){
+        //         console.log("inside CustomMethod");
+        //         return "CustomMethod"
+        //     }
+        // }
+
+        // var MyClassObject = new MyClass
+        // console.log(MyClassObject);
+        // MyClassObject.CustomMethod()
+        // console.log(MyClassObject.CustomMethod());
+
+        class DataBaseOp {
+            // constructor() {
+            //     this.database = "Something"
+            // }
+            constructor(database) {
+                this.database = database
+            }
+            select() {
+                let selectdata = "select";
+                console.log(this.database);
+                this.database
+            }
+            insert() {
+                // console.log(selectdata);
+                console.log(this.database);
+                let data = "insert"; this.database
+            }
+            update() { let  data = "update"; this.database }
+            delete() { let  data = "delete"; this.database }
+        }
+
+        var MyClassObject = new DataBaseOp("project1")
+        var MyClassObject2 = new DataBaseOp("project2")
+        var MyClassObject3 = new DataBaseOp("project3")
+        console.log(MyClassObject);
+        MyClassObject.select()
+        MyClassObject.insert()
+
+    </script>
+</body>
+
+</html>

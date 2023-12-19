@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <script>
+        class A{
+            insidea(){
+                return ("insidea");
+            }
+        }
+        class B extends A{
+            insideb(){
+                return ("insideb");
+            }
+        }
+        // class C extends A,B{ //Uncaught SyntaxError: Unexpected token ','
+        // class C extends A extends B{// Uncaught SyntaxError: Unexpected token 'extends'
+        class C extends B{
+            insidec(){
+                return ("insidec");
+            }
+        }
+
+        let ObjectOfC = new C
+        console.log(ObjectOfC);
+        console.log(ObjectOfC.insidea());
+        console.log(ObjectOfC.insideb());
+        console.log(ObjectOfC.insidec());
+
+    </script>
+    
+</body>
+</html>

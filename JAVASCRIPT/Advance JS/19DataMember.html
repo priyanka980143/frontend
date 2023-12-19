@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        class AccessModi {
+            DataMember = "test"
+            something ="asdf"
+            ParentMethod(){
+                let something = "Test something"
+                console.log("Called ParentMethod",this.DataMember);
+                console.log("inside Parent method",something);
+                console.log("inside Parent method",this.something);
+            }
+            ParentMethod2(){
+                console.log("Called ParentMethod2",this.DataMember);
+                console.log("inside Parent method",this.something);
+            }
+        }
+        class OtherClass extends AccessModi{
+            ChildMethod(){
+                console.log("Called ChildMethod",this.DataMember);
+            }
+        }
+        let accessObject = new OtherClass;
+        accessObject.ChildMethod()
+        accessObject.ParentMethod()
+        accessObject.ParentMethod2()
+    </script>
+</body>
+
+</html>
