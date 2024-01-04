@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- <style>
+            *{
+                border: 1px solid;
+            }
+        </style> -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="Login.html">Login</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- <button type="button" class="btn btn-primary position-relative">
+                                Profile
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                                    <span class="">4</span>
+                                </span>
+                            </button> -->
+                            <!-- <button type="button" class="btn btn-primary">
+                                Launch demo modal
+                              </button> -->
+                            <a class="nav-link position-relative" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                            >cart 
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle p-1 bg-danger border border-light rounded-circle">
+                                    <span class="">4</span>
+                                </span> </a>
+                            <!-- <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">cart <span class="badge text-bg-secondary">4</span> </a> -->
+                            <!-- <button type="button" class="btn btn-primary">
+                              </button> -->
+                        </li>
+                        <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="container mt-5">
+                <div class="row">
+
+                    <div class="col-md-8">
+                        <div class="card">
+                            <img src="assets/images/Top-CSS-Frameworks.webp" class="card-img-top" alt="...">
+                            <!-- <div class="card-header"></div> -->
+                            <div class="card-body">
+
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <!-- <button >
+                                            </button> -->
+                                            <h2 class="accordion-button" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseOne" aria-expanded="true"
+                                                aria-controls="collapseOne"> How does CSS framework work?</h2>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+
+                                                    CSS frameworks provide a structure to the web developers to handle
+                                                    the main issues with
+                                                    the front-end web development. CSS frameworks offer generic
+                                                    functionalities that can be
+                                                    overridden. So, CSS frameworks save the time of the web developers
+                                                    and increase
+                                                    efficiency.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <!-- <button >
+                                            </button> -->
+                                            <h2 class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo"> What is CSS Grid good
+                                                for?</h2>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+
+                                                <p>
+
+                                                    CSS Grids provides the method of creating the grid structures in
+                                                    CSS. With this, we
+                                                    can
+                                                    create grid layouts using Media queries, and it is also adapt to
+                                                    different contexts.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <!-- <button >
+                                            </button> -->
+                                            <h2 class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                                aria-expanded="false" aria-controls="collapseThree"> Should I use the
+                                                CSS frameworks?</h2>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+
+                                                <p>
+                                                    CSS frameworks are the best options for beginners. The CSS
+                                                    frameworks like Bootstrap
+                                                    can
+                                                    be easily mastered. All you need is to use the layouts. A beginner
+                                                    can also design
+                                                    the
+                                                    complete layout within a few minutes using the CSS frameworks.
+                                                </p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+
+                        <div id="ez-toc-widget-container"
+                            class="ez-toc-widget-container ez-toc-v2_0_56_1 ez-toc-widget counter-hierarchy ez-toc-widget-container ez-toc-widget-direction">
+
+                            <nav>
+                                <ul class="ez-toc-list ez-toc-list-level-1 ">
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-1" href="#How_does_CSS_framework_work"
+                                            title="
+                            How does CSS framework work? "> How does CSS framework work? </a>
+                                        <ul class="ez-toc-list-level-3">
+                                            <li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-2"
+                                                    href="#What_is_CSS_Grid_good_for" title="
+                            What is CSS Grid good for? "> What is CSS Grid good for? </a></li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-3"
+                                                    href="#Should_I_use_the_CSS_frameworks" title="
+                            Should I use the CSS frameworks? "> Should I use the CSS frameworks? </a></li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-4"
+                                                    href="#What_are_the_best_CSS_frameworks" title="
+                            What are the best CSS frameworks? "> What are the best CSS frameworks? </a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-5"
+                                            href="#Top_CSS_Frameworks_to_choose_for_web_development" title="
+                            Top CSS Frameworks to choose for web development: "> Top CSS Frameworks to choose for web
+                                            development: </a>
+                                        <ul class="ez-toc-list-level-3">
+                                            <li class="ez-toc-heading-level-3"><a class="ez-toc-link ez-toc-heading-6"
+                                                    href="#Bootstrap" title="
+                            Bootstrap "> Bootstrap </a>
+                                                <ul class="ez-toc-list-level-4">
+                                                    <li class="ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-7"
+                                                            href="#Benefits_of_Bootstrap_CSS_frameworks" title="
+                            Benefits of Bootstrap CSS frameworks: "> Benefits of Bootstrap CSS frameworks: </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-8"
+                                                            href="#Usage_statistics_of_Bootstrap" title="
+                            Usage statistics of Bootstrap: "> Usage statistics of Bootstrap: </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-9"
+                                                            href="#Who_uses_Bootstrap" title="
+                            Who uses Bootstrap? "> Who uses Bootstrap? </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-10" href="#Foundation" title="
+                            Foundation "> Foundation </a>
+                                                <ul class="ez-toc-list-level-4">
+                                                    <li class="ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-11"
+                                                            href="#Benefits_of_Foundation_CSS_framework" title="
+                            Benefits of Foundation CSS framework: "> Benefits of Foundation CSS framework: </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-12"
+                                                            href="#Usage_statistics_of_Foundation" title="
+                            Usage statistics of Foundation: "> Usage statistics of Foundation: </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-13"
+                                                            href="#Who_uses_Foundation" title="
+                            Who uses Foundation? "> Who uses Foundation? </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-14"
+                                                    href="#Materialize_CSS_framework" title="
+                            Materialize CSS framework. "> Materialize CSS framework. </a>
+                                                <ul class="ez-toc-list-level-4">
+                                                    <li class="ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-15"
+                                                            href="#Benefits_of_Materialize_CSS_framework" title="
+                            Benefits of Materialize CSS framework: "> Benefits of Materialize CSS framework: </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-16"
+                                                            href="#Usage_statistics_of_Materialize" title="
+                            Usage statistics of Materialize: "> Usage statistics of Materialize: </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-17"
+                                                            href="#Who_uses_Materialize" title="
+                            Who uses Materialize? "> Who uses Materialize? </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-18" href="#Semantic_UI" title="
+                            Semantic UI "> Semantic UI </a>
+                                                <ul class="ez-toc-list-level-4">
+                                                    <li class="ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-19"
+                                                            href="#Benefits_of_Semantic_UI_framework" title="
+                            Benefits of Semantic UI framework: "> Benefits of Semantic UI framework: </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-20"
+                                                            href="#Usage_statistics_of_Semantic_UI" title="
+                            Usage statistics of Semantic UI: "> Usage statistics of Semantic UI: </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-21"
+                                                            href="#Who_uses_Semantic_UI" title="
+                            Who uses Semantic UI? "> Who uses Semantic UI? </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-22" href="#Bulma" title="
+                            Bulma "> Bulma </a>
+                                                <ul class="ez-toc-list-level-4">
+                                                    <li class="ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-23"
+                                                            href="#Benefits_of_Bulma_CSS_frameworks"
+                                                            title="Benefits of Bulma CSS frameworks:">Benefits of
+                                                            Bulma CSS frameworks:</a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-24"
+                                                            href="#Usage_statistics_of_Bulma_CSS_framework" title="
+                            Usage statistics of Bulma CSS framework: "> Usage statistics of Bulma CSS framework: </a>
+                                                    </li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-25" href="#Who_uses_Bulma"
+                                                            title="
+                            Who uses Bulma? "> Who uses Bulma? </a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="ez-toc-page-1 ez-toc-heading-level-3"><a
+                                                    class="ez-toc-link ez-toc-heading-26" href="#Tailwind" title="
+                            Tailwind "> Tailwind </a>
+                                                <ul class="ez-toc-list-level-4">
+                                                    <li class="ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-27"
+                                                            href="#Benefits_of_Tailwind_CSS_framework" title="
+                            Benefits of Tailwind CSS framework: "> Benefits of Tailwind CSS framework: </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-28"
+                                                            href="#Usage_statistics_of_Tailwind_CSS_framework" title="
+                            Usage statistics of Tailwind CSS framework: "> Usage statistics of Tailwind CSS framework:
+                                                        </a></li>
+                                                    <li class="ez-toc-page-1 ez-toc-heading-level-4"><a
+                                                            class="ez-toc-link ez-toc-heading-29"
+                                                            href="#Who_uses_Tailwind" title="
+                            Who uses Tailwind? "> Who uses Tailwind? </a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="ez-toc-page-1 ez-toc-heading-level-2"><a
+                                            class="ez-toc-link ez-toc-heading-30" href="#On_the_Whole" title="
+                            On the Whole "> On the Whole </a></li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="accordion" id="accordionExample1">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne1" aria-expanded="true" aria-controls="collapseOne1">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne1" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample1">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It's also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="alert " role="alert">
+                        A simple primary alert—check it out!
+                    </div>
+                    <div class="alert alert-primary" role="alert">
+                        A simple primary alert—check it out!
+                    </div>
+                    <div class="alert alert-secondary" role="alert">
+                        A simple secondary alert—check it out!
+                    </div>
+                    <div class="alert alert-success" role="alert">
+                        A simple success alert—check it out!
+                    </div>
+                    <div class="alert alert-danger" role="alert">
+                        A simple danger alert—check it out!
+                    </div>
+                    <div class="alert alert-warning" role="alert">
+                        A simple warning alert—check it out!
+                    </div>
+                    <div class="alert alert-info" role="alert">
+                        A simple info alert—check it out!
+                    </div>
+                    <div class="alert alert-light" role="alert">
+                        A simple light alert—check it out!
+                    </div>
+                    <div class="alert alert-dark" role="alert">
+                        A simple dark alert—check it out!
+                    </div>
+                    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-truncate">
+              This text is quite long, and will be truncated once displayed.
+            </div>
+          </div>
+          
+          <!-- Inline level -->
+          <span class="d-inline-block text-truncate" style="max-width: 150px;">
+            This text is quite long, and will be truncated once displayed.
+          </span>
+<div class="container">
+    <div class="row">
+        <div class="col">
+
+            <table class="table table-borderd table-striped ">
+              <thead class="table-dark">
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">First</th>
+                  <th scope="col">Last</th>
+                  <th scope="col">Handle</th>
+                </tr>
+              </thead>
+              <tbody class="table-group-divider">
+                <tr>
+                  <th scope="row">1</th>
+                  <td>Mark</td>
+                  <td>Otto</td>
+                  <td>@mdo</td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td colspan="2">Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+    </main>
+</body>
+
+</html>
