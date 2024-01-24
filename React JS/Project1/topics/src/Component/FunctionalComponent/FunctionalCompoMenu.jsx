@@ -18,7 +18,16 @@ const FunctionalCompoMenu = () => {
                 <li><Link to="useeffectinfunctionalcompo"> useEffect </Link></li>
                 <li><Link to="uselayouteffectinfunctionalcompo"> useLayoutEffect </Link></li>
                 <li><Link to="usereffectinfunctionalcompo"> useRef </Link></li>
-            </ol>
+                <li><Link to="usecallbackinfunctionalcompo"> useCallback </Link></li>
+                <li><Link to="usememoinfunctionalcompo"> useMemo </Link></li>
+                <li><Link to="stateliftinginfunctionalcompo"> state Lifting </Link></li>
+                <li><Link to="useimperativehandleinfunctionalcompo"> useImperativeHandle </Link></li>
+                 <li><Link to="honeycom"> HoneyCom </Link></li>
+                 <li><Link to="usecontext"> UseContext </Link></li>
+                <li><Link to="usecontextexample"> UseContext Example </Link></li>
+                <li><Link to="usereducer"> UseReducer </Link></li>
+                               
+                </ol>
             </div>
         </div>
 

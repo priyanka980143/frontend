@@ -48,3 +48,6 @@ section{
       transform: rotate(360deg);
     }
   }
+  .panel-light {
+    border: 5px dashed darkblue;
+  }

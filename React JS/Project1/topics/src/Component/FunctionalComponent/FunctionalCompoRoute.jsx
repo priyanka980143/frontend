@@ -11,6 +11,16 @@ import HooksInFunctionalCompo from './09HooksInFunctionalCompo.jsx';
 import UseEffectHooksInFunctionalCompo from './10UseEffectHooksInFunctionalCompo.jsx';
 import UseLayoutEffectHooksInFunctionalCompo from './11UseLayoutEffectHooksInFunctionalCompo.jsx';
 import UseRefEffectHooksInFunctionalCompo from './12UseRefEffectHooksInFunctionalCompo.jsx';
+import UseCallbackHooksInFunctionalCompo from './13UseCallbackHooksInFunctionalCompo.jsx';
+import UseMemoHooksInFunctionalCompo from './14UseMemoHooksInFunctionalCompo.jsx';
+import StateLiftingInFunctionalCompo from './15StateLiftingInFunctionalCompo.jsx';
+import FunctionalImperativeHandle from './17ImperativeHandle/13FunctionalImperativeHandle.jsx';
+import HoneyCom from './18HoneyCom/ParentCompo.jsx';
+import UseContextHookInFunctionalCompo from './19UseContextHook/MainCompo.jsx';
+import UseReducerHookInFunctionalCompo from './20UseReducerHookInFunctionalCompo.jsx';
+import UseContextHookExampleInFunctionalCompo from './19UseContextHook/UseContextExmapleRef/12FunctionalUseContext.jsx';
+
+
 const ClassComponentRoute = () => {
     const routes = useRoutes([
         {
@@ -51,6 +61,37 @@ const ClassComponentRoute = () => {
                     path: "usereffectinfunctionalcompo",
                     element: <UseRefEffectHooksInFunctionalCompo />,
                 },
+                {
+                    path: "usecallbackinfunctionalcompo",
+                    element: <UseCallbackHooksInFunctionalCompo />,
+                }, {
+                    path: "usememoinfunctionalcompo",
+                    element: <UseMemoHooksInFunctionalCompo />,
+                },
+                {
+                    path: "stateliftinginfunctionalcompo",
+                    element: <StateLiftingInFunctionalCompo />,
+                }, 
+                {
+                    path: "useimperativehandleinfunctionalcompo",
+                    element: <FunctionalImperativeHandle />,
+                }, 
+                {
+                    path: "honeycom",
+                    element: <HoneyCom />,
+                },
+
+                {
+                    path: "usecontext",
+                    element: <UseContextHookInFunctionalCompo />,
+                }, {
+                    path: "usecontextexample",
+                    element: <UseContextHookExampleInFunctionalCompo />,
+                }, {
+                    path: "usereducer",
+                    element: <UseReducerHookInFunctionalCompo />,
+                },
+
             ]
         }])
         return routes;

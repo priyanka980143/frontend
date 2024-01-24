@@ -7,6 +7,13 @@ const StateFunctionalComponentInReact = () => {
     const [state, setState] = useState(true); // state with default value
     return (
         <>
+        <h4>ReactJS State</h4>
+        <p>React JS State is a way to store and manage the information or data while creating a React Application. The state is s JavaScript object that contains the real-time data or information on the webpage.</p>
+        <h3>Conventions of Using State in React:</h3>
+        <li>The state of a component should prevail throughout its lifetime, thus we must first have some initial state, to do so we should define the State in the constructor of the component’s class</li>
+        <li>The state should never be updated explicitly. React uses an observable object as the state that observes what changes are made to the state and helps the component behave accordingly.</li>
+        <li>React provides its own method setState(). setState() method takes a single parameter and expects an object which should contain the set of values to be updated.</li>
+        <li>The only time we are allowed to define the state explicitly is in the constructor to provide the initial state. </li>
             {data}
             <br />
             <button onClick={() => { data = "checking" }}>Click simple variable with let keyword</button> <br />

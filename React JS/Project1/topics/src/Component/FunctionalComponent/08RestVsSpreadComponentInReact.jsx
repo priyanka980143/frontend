@@ -8,6 +8,10 @@ const RestVsSpreadComponentInReact = () => {
     console.log(sum(...numbers));
     return (
         <>
+        <h3>Rest vs Spread Operator </h3>
+        <p>JavaScript uses three dots (...) for both the rest and spread operators. But these two operators are not the same.</p>
+       
+        <p>The main difference between rest and spread is that the rest operator puts the rest of some specific user-supplied values into a JavaScript array. But the spread syntax expands iterables into individual elements.</p>
 
             <p> The spread (...) syntax allows an iterable, such as an array or string, to be expanded in places where zero or more arguments (for function calls) or elements (for array literals) are expected. In an object literal, the spread syntax enumerates the properties of an object and adds the key-value pairs to the object being created.</p>
             <p> Spread syntax looks exactly like rest syntax. In a way, spread syntax is the opposite of rest syntax. Spread syntax "expands" an array into its elements, while rest syntax collects multiple elements and "condenses" them into a single element. See rest parameters and rest property.  </p>
