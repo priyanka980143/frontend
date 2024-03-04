@@ -473,6 +473,8 @@ nav {
   border-top: 2px solid  #f8fafc;
 }
 
+/* MEDIA QUERY  */
+
 @media (width < 900px) {
   .nav__links {
     display: none;
