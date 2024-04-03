@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "name": "Denish",
+      "password": "Denish@123",
+      "email": "Denishchotaliya@gmail.com",
+      "rol": 1
+    },
+    {
+      "name": "hardik09",
+      "email": "hardikchaudhary647@gmail.com",
+      "password": "hkumar9655",
+      "rol": 2,
+      "id": "2"
+    },
+    {
+      "id": "bb16",
+      "name": "priyanka@123",
+      "password": "priyanka@123",
+      "email": "priyanka@gmail.com"
+    }
+  ]
+}
