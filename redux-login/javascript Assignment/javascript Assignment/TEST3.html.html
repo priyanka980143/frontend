@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Result</title>
+</head>
+<style>
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    #container {
+        width: 40%;
+        border: 3px solid black;
+        padding: 20px;
+         }
+
+         p {
+            text-align: center;
+         }
+
+         table tr td {
+           padding: 10px 50px 10px 0px;
+         }
+
+         #marks {
+            width: 290px;
+            
+         }
+
+         .main_heading{
+            margin-bottom: 30px;
+         }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .result
+        {
+            padding: 5px 25px;
+            cursor: pointer;
+            margin: 5px 0 0 180px;
+        }
+
+        #total_with_percentages {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        
+</style>
+<body>
+    <!-- container  -->
+    <div id="container">
+
+        <h2 class="main_heading">
+            Marksheet for Information Technology
+        </h2>
+
+        <p>Enter Marks</p>
+
+        <!-- subject table  -->
+       <table>
+        <tr>
+            <td>1. C Language</td>
+            <td><input type="number" name="number"   maxlength="2" required id = "C"></td>
+        </tr>
+        <tr>
+            <td>2. C++ Language</td>
+            <td><input type="number"  required id = "C++" maxlength="2"></td>
+        </tr>
+        <tr>
+            <td>3. Database</td>
+            <td><input type="number" maxlength="2" required id = "Database"></td>
+        </tr>
+        <tr>
+            <td>4. HTML</td>
+            <td><input type="number" maxlength="2" required id = "HTML"></td>
+        </tr>
+        <tr>
+            <td>5. CSS</td>
+            <td><input type="number" maxlength="2" required id = "CSS"></td>
+        </tr>
+        <tr>
+            <td>6. php</td>
+            <td><input type="number" maxlength="2" required id = "php"></td>
+        </tr>
+        <tr>
+            <td>7. Core java</td>
+            <td><input type="number" maxlength="2" required id = "Core java"></td>
+        </tr>
+       </table>
+  <!-- subject table end  -->
+
+  <input type="submit" value="Result" id="Result" onclick="Sub()">
+
+  <!-- end button  -->
+
+  <!-- result  -->
+  <div id="total_with_percentages">
+    <div class="total">
+        <p id="total">Total is : </p>
+    </div>
+    <div class="percentage">
+        <p id="percentage">Percentage is : </p>
+    </div>
+
+  </div>
+  <!-- end result  -->
+
+    </div>
+    <!-- container end  -->
+
+    <script>
+        function Sub() {
+            // make variable 
+            var c, cplus, database, html, css, php, java;
+
+            // intialiaze variable
+            c=parseInt(document.getElementById('C').value);
+            cplus=parseInt(document.getElementById('C++').value);
+            database=parseInt(document.getElementById('Database').value);
+            html=parseInt(document.getElementById('HTML').value);
+            css=parseInt(document.getElementById('CSS').value);
+            php=parseInt(document.getElementById('php').value);
+            java=parseInt(document.getElementById('Core java').value);
+
+
+            // Calculating Total
+            sum=c + cplus + database + html + css + php + java;
+            avg=sum/4;
+            console.log(avg);
+
+            // Displayind data 
+
+            let total = document.getElementById('total');
+            total.innerHTML = `Total is : ${sum}/350`;
+            total.style = "color: blue"
+            let totalAvg = document.getElementById('percentage')
+            totalAvg.innerHTML = `Percentage is :  ${sum/4}`;
+            totalAvg.style = "color: blue"
+
+            // condition of alert sum
+            if (c>50, cplus>50, database>50, html>50, css>500, php>50, java>50) {
+                alert("Value is above 50")
+            } else {
+                alert(`result is ${sum}`)
+            }
+            
+        }
+
+    </script>
+</body>
+</html>

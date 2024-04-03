@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Input Hide/Show</title>
+</head>
+<body>
+    <!-- Password Portion  -->
+    <form action="#">
+        <div id="up">
+            <label for="Password">Enter Password :</label>
+            <input type="password" placeholder="Enter Your Password" name="Password" id="pswd" maxlength="12" type="password">
+        </div>
+
+        <div id="down">
+            <input type="checkbox" name="checkbox" onclick="mychk()">
+            <label for="checkbox">show password</label>
+        </div>
+    </form>
+
+    <script>
+        // function myPswd() {
+        // let password = document.getElementById('pswd');
+        //     if (pswd.type === 'password') {
+        //         pswd.type = 'text';
+        //     }
+        //     else {
+        //         pswd.type='password';
+        //     }
+        // }
+
+        function mychk() {
+            var password = document.getElementById('pswd')
+            if (pswd.type === 'password') {
+                pswd.type = 'text'
+            }
+            else {
+                pswd.type = 'password'
+            }
+        }
+    </script>
+</body>
+</html>
