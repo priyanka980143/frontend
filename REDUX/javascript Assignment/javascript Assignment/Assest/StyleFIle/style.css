@@ -1,0 +1,1163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1d1a39;
+}
+
+.img-logo {
+    height: 15vmin;
+    margin: 40px 0px 0px 35px;
+
+}
+
+.container {
+    width: 325vmin;
+    height: auto;
+    background-color: #fff;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+/* == Question- 1 Start == */
+.question-1 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-1 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-1 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+
+.question-1 ul {
+    border: 2vmin solid #144272;
+    padding: 1.2vmin;
+    margin: 3vmin;
+    background-color: honeydew;
+}
+
+.question-1 li {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 7vmin 0 7vmin;
+
+}
+
+.question-1 h3 {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 0 3vmin;
+}
+
+/* == Question- 1 End == */
+/* == Question- 2 Start == */
+.question-2 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-2 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-2 h3 {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 0 3vmin;
+}
+
+
+.question-2 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+
+}
+
+.question-2 ul {
+    padding: 1.2vmin;
+    margin: 3vmin;
+}
+
+.question-2 li {
+    list-style-type: none;
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 7vmin 0 7vmin;
+
+}
+
+.style-output {
+    font-size: 3vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 50vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 5px;
+}
+
+.style-output h3 {
+    margin: 0px 0px -7px 20px;
+    padding: 10px;
+    color: #fff;
+}
+
+.style-output li {
+    color: #fff;
+}
+
+/* == Question- 2 End == */
+/* == Question- 3 Start == */
+.question-3 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-3 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-3 h3 {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 0 3vmin;
+}
+
+.question-3 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+
+}
+
+.question-3 ul {
+    padding: 1.2vmin;
+    margin: 3vmin;
+}
+
+.question-3 li {
+    list-style-type: none;
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 7vmin 0 7vmin;
+
+}
+
+/* == Question- 3 End == */
+/* == Question- 4 Start == */
+
+.question-4 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-4 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-4 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+
+}
+
+/* == Question- 4 End == */
+/* == Question- 5 Start == */
+.question-5 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-5 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-5 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 0 3vmin;
+}
+
+.question-5 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+
+.undefind {
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 78vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 5vmin;
+    line-height: 5vmin;
+}
+
+.undefind-emp h3 {
+    font-size: 5vmin;
+}
+
+.undefind .undefind-emp {
+    color: #144272;
+    height: 40vmin;
+    width: 119vmin;
+    margin-top: 4vmin;
+    background-color: #fff;
+    border-bottom: 10px solid orange;
+    border-top: 10px solid orange;
+    border-left: 10px solid orange;
+    padding: 5vmin;
+    font-size: 3vmin;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.example-1 {
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 90vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 5vmin;
+    line-height: 5vmin;
+}
+
+.exmple-box-print {
+    height: 17vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+/* == Question- 5 End == */
+/* == Question- 6 Start == */
+
+.question-6 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-6 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-6 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+
+.Q-6-exmaple {
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 95vmin;
+    width: 135vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 5vmin;
+    line-height: 5vmin;
+}
+
+.Q-6-exmaple-ourtup {
+    color: #144272;
+    height: 75vmin;
+    width: 119vmin;
+    margin-top: 4vmin;
+    background-color: #fff;
+    border-bottom: 10px solid orange;
+    border-top: 10px solid orange;
+    border-left: 10px solid orange;
+    padding: 5vmin;
+    font-size: 3vmin;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+/* == Question- 6 End == */
+/* == Question- 7 Start == */
+
+.question-7 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-7 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-7 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+table {
+    border: 1px solid #144272;
+    border-collapse: collapse;
+    margin-bottom: 8vmin;
+}
+
+table tr th {
+    border: 1px solid #000;
+    font-size: 3vmin;
+    color: #144272;
+    padding: 10px;
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+table tr td {
+    border: 1px solid #000;
+    font-size: 3vmin;
+    color: #144272;
+    padding: 10px;
+    font-weight: bold;
+    background-color: lightcyan;
+}
+
+/* == Question- 7 End == */
+/* == Question- 8 Start == */
+
+
+.question-8 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-8 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-8 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+.question-8 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+
+.q-8-syntax {
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 30vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+
+.q-8-syntax h3 {
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+
+.q-8-syntax-output {
+    height: 9vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+.q-8-example-1 {
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 112vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+
+.q-8-example-1 p {
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+
+.q-8-example-1-output {
+    height: 46vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+.q-8-example-1-output p {
+    color: #144272;
+}
+
+.q-8-example-2 {
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 112vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+
+}
+
+.q-8-example-2 p {
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+
+.q-8-example-2-output {
+    height: 46vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+.q-8-example-2-output p {
+    color: #144272;
+}
+
+/* == Question- 8 End == */
+/* == Question- 9 Start == */
+
+
+.question-9 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-9 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-9 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+.question-9 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+
+.q-9-syntax {
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 29vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+
+.q-9-syntax h3 {
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+
+.q-9-syntax-line {
+    height: 10vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+.q-9-exmaple{
+    height: 120vmin;
+    /* height: auto; */
+    width: 111vmin;
+    background-color: #144272;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #fff;
+    border-left: 5px solid orange;    
+}
+ul {
+    padding: 1.2vmin;
+    margin: 3vmin;
+    /* background-color: honeydew; */
+}
+li {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 7vmin 0 7vmin;
+}
+
+/* == Question- 9 End == */
+/* == Question- 10 Start == */
+
+.question-10 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-10 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-10 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+.question-10 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+
+.q-10-example{
+    height: 130vmin;
+    width: 111vmin;
+    background-color: #144272;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #fff;
+    border-left: 5px solid orange;    
+}
+
+
+/* == Question- 10 End == */
+/* == Question- 11 Start == */
+
+
+.question-11 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-11 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-11 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+.question-11 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+.q-11-syntax{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 37vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-11-syntax h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+.q-11-syntax-output{
+    height: 18vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+.q-11-syntax-2{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 45vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-11-syntax-2 h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+.q-11-syntax-output-2{
+    height: 28vmin;
+    width: 111vmin;
+    /* background-color: #fff; */
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+.q-11-syntax-3{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 55vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-11-syntax-3 h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+.q-11-syntax-output-3{
+    height: 34vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+/* == Question- 11 End == */
+/* == Question- 12 Start == */
+
+
+.question-12 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-12 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-12 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+.question-12 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+
+/* == Question- 12 End == */
+/* == Question- 13 Start == */
+
+
+.question-13 {
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-13 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-13 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+.question-13 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+
+/* == Question- 13 End == */
+/* == Question- 14 Start == */
+
+.question-14{
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-14 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+
+.question-14 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+.question-14 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+
+.q-14-example{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 99vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-14-example h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+.q-14-example-output{
+    height: 79vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+.q-14-example-2{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 102vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-14-example-2 h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+.q-14-example-output-2{
+    height: 78vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+.q-14-example-3{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 126vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-14-example-3 h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+}
+.q-14-example-output-3{
+    height: 102vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+
+/* == Question- 14 End == */
+/* == Question- 15 Start == */
+
+.question-15{
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-15 h2 {
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+.question-15 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+.q-15-example{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 126vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-15-example h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+
+}
+.q-15-example-output{
+    height: 102vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+/* == Question- 15 End == */
+/* == Question- 16 Start == */
+
+
+.question-16{
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-16 h2{
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+.question-16 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+.question-16 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+.q-16-syntax{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 38vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-16-syntax h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+
+}
+.q-16-syntax-output{
+    height: 18vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+.q-16-example{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 38vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-16-example h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+
+}
+.q-16-example-output{
+    height: 19vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+.q-16-example-2{
+    height: 104vmin;
+    width: 111vmin;
+    background-color: #144272;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #fff;
+    border-left: 5px solid orange;
+}
+.q-16-example-3{
+    height: 60vmin;
+    width: 111vmin;
+    background-color: #144272;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #fff;
+    border-left: 5px solid orange;
+}
+
+
+/* == Question- 16 End == */
+/* == Question- 17 Start == */
+
+
+.question-17{
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-17 h2{
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+.question-17 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+.question-17 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+
+
+.q-17-example{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 47vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-17-example h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+
+}
+.q-17-example-output{
+    height: 25vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+.q-17-example-2{
+    height: 89vmin;
+    width: 111vmin;
+    background-color: #144272;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #fff;
+    border-left: 5px solid orange;
+
+}   
+
+
+/* == Question- 17 End == */
+/* == Question- 18 Start == */
+
+
+.question-18{
+    padding: 25px;
+    margin: 5px;
+}
+
+.question-18 h2{
+    font-size: 5vmin;
+    color: #27374D;
+    margin-bottom: 1.8vmin;
+    margin-top: 5vmin;
+}
+.question-18 p {
+    font-size: 3vmin;
+    color: #144272;
+    margin: 1.5vmin 5vmin;
+}
+.question-18 h3 {
+    font-size: 4vmin;
+    color: #144272;
+    margin: 2vmin 3vmin;
+}
+
+.q-18-example{
+    font-size: 3.5vmin;
+    color: #fff;
+    margin: 4vmin 3vmin;
+    height: 215vmin;
+    width: 130vmin;
+    background-color: #2267c8d2;
+    border-radius: 10px;
+    padding: 2vmin;
+    line-height: 5vmin;
+}
+.q-18-example h3{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #fff;
+
+}
+.q-18-example p{
+    margin: 0 4vmin;
+    padding: 1vmin 0;
+    color: #144272;
+}
+
+.q-18-example-output-1{
+    height: 25vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+
+.q-18-example-output-2{
+    height: 165vmin;
+    width: 111vmin;
+    background-color: #fff;
+    padding: 0vmin;
+    margin: 5vmin;
+    padding: 1vmin 3vmin;
+    color: #144272;
+    border-left: 5px solid orange;
+}
+

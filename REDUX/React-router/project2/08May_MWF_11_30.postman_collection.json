@@ -1,0 +1,131 @@
+{
+	"info": {
+		"_postman_id": "a26ed6db-3cbe-452d-a5bf-d7d9e84e00ab",
+		"name": "08May_MWF_11_30",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24804367"
+	},
+	"item": [
+		{
+			"name": "InsertUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"test\",\"password\":\"123\",\"email\":\"mail@mail.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					]
+				},
+				"description": "http://localhost:5000/users"
+			},
+			"response": []
+		},
+		{
+			"name": "SelectAllUsers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users"
+					]
+				},
+				"description": "http://localhost:5000/users"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUserdata",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"username\":\"testing\",\"password\":\"456\",\"email\":\"mail@mail.com\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5000/users/72fd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users",
+						"72fd"
+					]
+				},
+				"description": "http://localhost:5000/users/72fd"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/users/72fd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users",
+						"72fd"
+					]
+				},
+				"description": "http://localhost:5000/users/72fd"
+			},
+			"response": []
+		},
+		{
+			"name": "SelectUserById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5000/users/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"users",
+						"5"
+					]
+				},
+				"description": "http://localhost:5000/users/5"
+			},
+			"response": []
+		}
+	]
+}
